@@ -1,0 +1,2 @@
+The datasheets for the resistors are vlmr51.pdf and Datasheet_OVS5MxBCR4_3.pdf.
+We connected 2 LEDs (1 yellow, 1 red with 2.2V forward voltage) in series to the battery. We also added a blue LED and a green LED (3.4B forward voltage), each connected to a digital pin (14 and 15) on the microcontroller.

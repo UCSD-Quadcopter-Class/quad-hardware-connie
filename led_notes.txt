@@ -1,0 +1,2 @@
+The datasheets for the LEDs are vlmr51.pdf and Datasheet_OVS5MxBCR4_3.pdf.
+We connected, in parallel, 2 LEDs (1 green, 1 blue with 3.4V forward voltage and 180mA max current) in series with a 5 Ohm resistor connected to the battery. We also added a red LED and a yellow LED (2.2V forward voltage and 200mA max current), each connected to a 5 Ohm resistor connected to a digital pin (14 and 15) on the microcontroller.

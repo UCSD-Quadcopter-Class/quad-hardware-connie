@@ -879,7 +879,9 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CREATPR" value="Jason Shiuan"/>
+</technology>
 </technologies>
 </device>
 </devices>

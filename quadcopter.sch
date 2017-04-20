@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -2323,12 +2323,6 @@
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="BAT_GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="VCC">
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="Q">
 <wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
@@ -2987,19 +2981,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <attribute name="DIST" value=""/>
 <attribute name="DISTPN" value=""/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCC" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="VCC" symbol="VCC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -3715,7 +3696,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </library>
 <library name="LEDs">
 <packages>
-<package name="LED_VLMX51Z1AA">
+<package name="LED_OVS5MXBCR4">
 <wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.127" layer="51"/>
 <wire x1="-1.75" y1="-1.75" x2="1.75" y2="-1.75" width="0.127" layer="51"/>
 <wire x1="1.75" y1="1.75" x2="1.75" y2="-1.75" width="0.127" layer="51"/>
@@ -3734,7 +3715,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <text x="-2.7" y="5.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.8" y="-6.7" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="LED_OVS5MXBCR4">
+<package name="LED_VLMX51Z1AA">
 <wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.127" layer="51"/>
 <wire x1="-1.75" y1="-1.75" x2="1.75" y2="-1.75" width="0.127" layer="51"/>
 <wire x1="1.75" y1="1.75" x2="1.75" y2="-1.75" width="0.127" layer="51"/>
@@ -3779,6 +3760,48 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="LED_OVS5MXBCR4" prefix="D" uservalue="yes">
+<description>3.4V, 150mA test, 180mA max</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BLUE" package="LED_OVS5MXBCR4">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Jason Shiuan"/>
+<attribute name="DIST" value="Digikey"/>
+<attribute name="DISTPN" value="365-1544-1-ND"/>
+<attribute name="MFR" value="TT Electronics/Optek Technology"/>
+<attribute name="MPN" value="OVS5MBBCR4"/>
+<attribute name="REVIEWER" value="" constant="no"/>
+<attribute name="VALUE" value="Blue"/>
+</technology>
+</technologies>
+</device>
+<device name="GREEN" package="LED_OVS5MXBCR4">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Jason Shiuan"/>
+<attribute name="DIST" value="Digikey"/>
+<attribute name="DISTPN" value="365-1545-1-ND"/>
+<attribute name="MFR" value="TT Electronics/Optek Technology"/>
+<attribute name="MPN" value="OVS5MGBCR4"/>
+<attribute name="REVIEWER" value="" constant="no"/>
+<attribute name="VALUE" value="Green"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="LED_VLMX51Z1AA" prefix="D" uservalue="yes">
 <description>2.2V, 140mA test, 200mA max</description>
 <gates>
@@ -3838,48 +3861,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED_OVS5MXBCR4" prefix="D" uservalue="yes">
-<description>3.4V, 150mA test, 180mA max</description>
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="BLUE" package="LED_OVS5MXBCR4">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Jason Shiuan"/>
-<attribute name="DIST" value="Digikey"/>
-<attribute name="DISTPN" value="365-1544-1-ND"/>
-<attribute name="MFR" value="TT Electronics/Optek Technology"/>
-<attribute name="MPN" value="OVS5MBBCR4"/>
-<attribute name="REVIEWER" value="" constant="no"/>
-<attribute name="VALUE" value="Blue"/>
-</technology>
-</technologies>
-</device>
-<device name="GREEN" package="LED_OVS5MXBCR4">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Jason Shiuan"/>
-<attribute name="DIST" value="Digikey"/>
-<attribute name="DISTPN" value="365-1545-1-ND"/>
-<attribute name="MFR" value="TT Electronics/Optek Technology"/>
-<attribute name="MPN" value="OVS5MGBCR4"/>
-<attribute name="REVIEWER" value="" constant="no"/>
-<attribute name="VALUE" value="Green"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -3917,7 +3898,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="R9" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-100" value="10K 1/10W"/>
 <part name="C9" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
 <part name="D4" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123" value="20V-500MA"/>
-<part name="VBAT" library="quadparts_prebuilt" deviceset="VCC" device=""/>
 <part name="U$2" library="quadparts_prebuilt" deviceset="MOTOR_PADS" device=""/>
 <part name="C2" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="100uF"/>
 <part name="Q1" library="quadparts_connie" deviceset="N_MOSFET_SI2302CDS_T1_E3" device=""/>
@@ -3925,7 +3905,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="R3" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-100" value="10K 1/10W"/>
 <part name="C3" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
 <part name="D1" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123" value="20V-500MA"/>
-<part name="VBAT2" library="quadparts_prebuilt" deviceset="VCC" device=""/>
 <part name="U$4" library="quadparts_prebuilt" deviceset="MOTOR_PADS" device=""/>
 <part name="C4" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="100uF"/>
 <part name="Q2" library="quadparts_connie" deviceset="N_MOSFET_SI2302CDS_T1_E3" device=""/>
@@ -3933,7 +3912,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="R5" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-100" value="10K 1/10W"/>
 <part name="C5" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
 <part name="D2" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123" value="20V-500MA"/>
-<part name="VBAT3" library="quadparts_prebuilt" deviceset="VCC" device=""/>
 <part name="U$5" library="quadparts_prebuilt" deviceset="MOTOR_PADS" device=""/>
 <part name="C6" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="100uF"/>
 <part name="Q3" library="quadparts_connie" deviceset="N_MOSFET_SI2302CDS_T1_E3" device=""/>
@@ -3941,11 +3919,8 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="R7" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-100" value="10K 1/10W"/>
 <part name="C7" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
 <part name="D3" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123" value="20V-500MA"/>
-<part name="VBAT1" library="quadparts_prebuilt" deviceset="VCC" device=""/>
 <part name="C10" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
 <part name="C11" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
-<part name="3V" library="quadparts_prebuilt" deviceset="VCC" device=""/>
-<part name="P+1" library="quadparts_prebuilt" deviceset="VCC" device=""/>
 <part name="GND8" library="quadparts_prebuilt" deviceset="GND" device=""/>
 <part name="C12" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
 <part name="C13" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
@@ -3967,7 +3942,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="C19" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.75PF" value="0.75pF"/>
 <part name="GND17" library="quadparts_prebuilt" deviceset="GND" device=""/>
 <part name="U2" library="quadparts_connie" deviceset="IMU_LSM9DS1TR" device=""/>
-<part name="P+2" library="quadparts_prebuilt" deviceset="VCC" device=""/>
 <part name="C20" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC" value="100nF"/>
 <part name="GND18" library="quadparts_prebuilt" deviceset="GND" device=""/>
 <part name="C21" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC" value="100nF"/>
@@ -3976,17 +3950,19 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="C23" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC" value="100nF"/>
 <part name="GND20" library="quadparts_prebuilt" deviceset="GND" device=""/>
 <part name="GND21" library="quadparts_prebuilt" deviceset="GND" device=""/>
-<part name="P+3" library="quadparts_prebuilt" deviceset="VCC" device=""/>
 <part name="C24" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC" value="10nF(16V)"/>
 <part name="GND22" library="quadparts_prebuilt" deviceset="GND" device=""/>
 <part name="GND23" library="quadparts_prebuilt" deviceset="GND" device=""/>
 <part name="J3" library="quadparts_prebuilt" deviceset="SIP-10_" device="TH-254X10"/>
 <part name="R10" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805"/>
 <part name="R11" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805"/>
-<part name="D6" library="LEDs" deviceset="LED_VLMX51Z1AA" device="RED" value="Red"/>
-<part name="D5" library="LEDs" deviceset="LED_VLMX51Z1AA" device="YELLOW" value="Yellow"/>
-<part name="D7" library="LEDs" deviceset="LED_OVS5MXBCR4" device="BLUE" value="Blue"/>
-<part name="D8" library="LEDs" deviceset="LED_OVS5MXBCR4" device="GREEN" value="Green"/>
+<part name="R12" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805" value="5"/>
+<part name="D9" library="LEDs" deviceset="LED_OVS5MXBCR4" device="BLUE" value="Blue"/>
+<part name="D10" library="LEDs" deviceset="LED_OVS5MXBCR4" device="GREEN" value="Green"/>
+<part name="D5" library="LEDs" deviceset="LED_VLMX51Z1AA" device="RED" value="Red"/>
+<part name="D6" library="LEDs" deviceset="LED_VLMX51Z1AA" device="YELLOW" value="Yellow"/>
+<part name="R13" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805" value="5"/>
+<part name="R14" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805" value="5"/>
 <part name="GND24" library="quadparts_prebuilt" deviceset="GND" device=""/>
 <part name="GND25" library="quadparts_prebuilt" deviceset="GND" device=""/>
 </parts>
@@ -4060,7 +4036,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <instance part="R9" gate="G$1" x="-152.4" y="-101.6" rot="R90"/>
 <instance part="C9" gate="G$1" x="-162.56" y="-99.06"/>
 <instance part="D4" gate="G$1" x="-121.92" y="-48.26" rot="R90"/>
-<instance part="VBAT" gate="VCC" x="-162.56" y="-30.48"/>
 <instance part="U$2" gate="G$1" x="-142.24" y="101.6"/>
 <instance part="C2" gate="G$1" x="-162.56" y="104.14"/>
 <instance part="Q1" gate="G$1" x="-137.16" y="63.5"/>
@@ -4068,7 +4043,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <instance part="R3" gate="G$1" x="-152.4" y="50.8" rot="R90"/>
 <instance part="C3" gate="G$1" x="-162.56" y="53.34"/>
 <instance part="D1" gate="G$1" x="-121.92" y="104.14" rot="R90"/>
-<instance part="VBAT2" gate="VCC" x="-162.56" y="121.92"/>
 <instance part="U$4" gate="G$1" x="144.78" y="-50.8"/>
 <instance part="C4" gate="G$1" x="124.46" y="-48.26"/>
 <instance part="Q2" gate="G$1" x="149.86" y="-88.9"/>
@@ -4076,7 +4050,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <instance part="R5" gate="G$1" x="134.62" y="-101.6" rot="R90"/>
 <instance part="C5" gate="G$1" x="124.46" y="-99.06"/>
 <instance part="D2" gate="G$1" x="165.1" y="-48.26" rot="R90"/>
-<instance part="VBAT3" gate="VCC" x="124.46" y="-30.48"/>
 <instance part="U$5" gate="G$1" x="99.06" y="101.6"/>
 <instance part="C6" gate="G$1" x="78.74" y="104.14"/>
 <instance part="Q3" gate="G$1" x="104.14" y="63.5"/>
@@ -4084,11 +4057,8 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <instance part="R7" gate="G$1" x="88.9" y="50.8" rot="R90"/>
 <instance part="C7" gate="G$1" x="78.74" y="53.34"/>
 <instance part="D3" gate="G$1" x="119.38" y="104.14" rot="R90"/>
-<instance part="VBAT1" gate="VCC" x="78.74" y="121.92"/>
 <instance part="C10" gate="G$1" x="-182.88" y="-2.54"/>
 <instance part="C11" gate="G$1" x="-139.7" y="-2.54"/>
-<instance part="3V" gate="VCC" x="-22.86" y="38.1"/>
-<instance part="P+1" gate="VCC" x="-12.7" y="35.56"/>
 <instance part="GND8" gate="1" x="-20.32" y="-2.54" rot="R90"/>
 <instance part="C12" gate="G$1" x="17.78" y="-25.4"/>
 <instance part="C13" gate="G$1" x="5.08" y="-25.4"/>
@@ -4110,7 +4080,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <instance part="C19" gate="G$1" x="55.88" y="5.08" rot="R180"/>
 <instance part="GND17" gate="1" x="55.88" y="-2.54"/>
 <instance part="U2" gate="G$1" x="66.04" y="-109.22"/>
-<instance part="P+2" gate="VCC" x="2.54" y="-66.04"/>
 <instance part="C20" gate="G$1" x="2.54" y="-78.74"/>
 <instance part="GND18" gate="1" x="2.54" y="-88.9"/>
 <instance part="C21" gate="G$1" x="40.64" y="-68.58" rot="R270"/>
@@ -4119,19 +4088,21 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <instance part="C23" gate="G$1" x="48.26" y="-45.72"/>
 <instance part="GND20" gate="1" x="33.02" y="-53.34"/>
 <instance part="GND21" gate="1" x="48.26" y="-53.34"/>
-<instance part="P+3" gate="VCC" x="48.26" y="-27.94"/>
 <instance part="C24" gate="G$1" x="76.2" y="-68.58" rot="R90"/>
 <instance part="GND22" gate="1" x="88.9" y="-68.58" rot="R90"/>
 <instance part="GND23" gate="1" x="99.06" y="-127"/>
 <instance part="J3" gate="G$1" x="78.74" y="-25.4"/>
 <instance part="R10" gate="G$1" x="33.02" y="-88.9" rot="R90"/>
 <instance part="R11" gate="G$1" x="22.86" y="-88.9" rot="R90"/>
-<instance part="D6" gate="G$1" x="-88.9" y="45.72"/>
-<instance part="D5" gate="G$1" x="-109.22" y="45.72"/>
-<instance part="D7" gate="G$1" x="-101.6" y="-33.02" rot="R90"/>
-<instance part="D8" gate="G$1" x="-106.68" y="-58.42" rot="R270"/>
-<instance part="GND24" gate="1" x="-106.68" y="-68.58"/>
-<instance part="GND25" gate="1" x="-101.6" y="-22.86" rot="R180"/>
+<instance part="R12" gate="G$1" x="-109.22" y="78.74"/>
+<instance part="D9" gate="G$1" x="-109.22" y="60.96" rot="R270"/>
+<instance part="D10" gate="G$1" x="-93.98" y="60.96" rot="R270"/>
+<instance part="D5" gate="G$1" x="-106.68" y="-71.12" rot="R270"/>
+<instance part="D6" gate="G$1" x="-101.6" y="-20.32" rot="R90"/>
+<instance part="R13" gate="G$1" x="-106.68" y="-55.88" rot="R90"/>
+<instance part="R14" gate="G$1" x="-101.6" y="-35.56" rot="R90"/>
+<instance part="GND24" gate="1" x="-106.68" y="-83.82"/>
+<instance part="GND25" gate="1" x="-101.6" y="-7.62" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -4319,11 +4290,13 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <label x="91.44" y="0" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D8" gate="G$1" pin="C"/>
+<pinref part="D5" gate="G$1" pin="C"/>
+<wire x1="-106.68" y1="-78.74" x2="-106.68" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="D7" gate="G$1" pin="C"/>
+<pinref part="D6" gate="G$1" pin="C"/>
+<wire x1="-101.6" y1="-12.7" x2="-101.6" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -4737,9 +4710,14 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <label x="91.44" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="C"/>
-<wire x1="-81.28" y1="45.72" x2="-76.2" y2="45.72" width="0.1524" layer="91"/>
-<label x="-78.74" y="43.18" size="1.778" layer="95"/>
+<pinref part="D9" gate="G$1" pin="C"/>
+<wire x1="-109.22" y1="53.34" x2="-109.22" y2="50.8" width="0.1524" layer="91"/>
+<label x="-109.22" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D10" gate="G$1" pin="C"/>
+<wire x1="-93.98" y1="53.34" x2="-93.98" y2="50.8" width="0.1524" layer="91"/>
+<label x="-93.98" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -4767,7 +4745,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <wire x1="-129.54" y1="-43.18" x2="-121.92" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="-121.92" y1="-43.18" x2="-121.92" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="C"/>
-<pinref part="VBAT" gate="VCC" pin="VCC"/>
 <label x="-162.56" y="-33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -4784,7 +4761,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <wire x1="-129.54" y1="109.22" x2="-121.92" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-121.92" y1="109.22" x2="-121.92" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="VBAT2" gate="VCC" pin="VCC"/>
 <label x="-162.56" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -4801,7 +4777,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <wire x1="157.48" y1="-43.18" x2="165.1" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="-43.18" x2="165.1" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<pinref part="VBAT3" gate="VCC" pin="VCC"/>
 <label x="124.46" y="-33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -4818,7 +4793,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <wire x1="111.76" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="109.22" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<pinref part="VBAT1" gate="VCC" pin="VCC"/>
 <label x="78.74" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -4827,9 +4801,9 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <label x="91.44" y="-5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="-116.84" y1="45.72" x2="-121.92" y2="45.72" width="0.1524" layer="91"/>
-<label x="-121.92" y="43.18" size="1.778" layer="95"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="-114.3" y1="78.74" x2="-116.84" y2="78.74" width="0.1524" layer="91"/>
+<label x="-121.92" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -4862,12 +4836,10 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <wire x1="-27.94" y1="25.4" x2="-22.86" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-22.86" y="25.4"/>
 <label x="-25.4" y="33.02" size="1.778" layer="95"/>
-<pinref part="3V" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-12.7" y1="30.48" x2="-12.7" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="P+1" gate="VCC" pin="VCC"/>
 <label x="-12.7" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -4880,7 +4852,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <wire x1="12.7" y1="-76.2" x2="2.54" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="-76.2" x2="2.54" y2="-68.58" width="0.1524" layer="91"/>
 <label x="2.54" y="-71.12" size="1.778" layer="95"/>
-<pinref part="P+2" gate="VCC" pin="VCC"/>
 <pinref part="C20" gate="G$1" pin="1"/>
 <junction x="2.54" y="-76.2"/>
 <wire x1="17.78" y1="-76.2" x2="17.78" y2="-106.68" width="0.1524" layer="91"/>
@@ -4889,7 +4860,8 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <pinref part="U2" gate="G$1" pin="VDDIO@2"/>
 <pinref part="U2" gate="G$1" pin="CS_M"/>
 <wire x1="58.42" y1="-142.24" x2="58.42" y2="-132.08" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-142.24" x2="12.7" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-142.24" x2="53.34" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-142.24" x2="12.7" y2="-142.24" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-142.24" x2="12.7" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="12.7" y="-76.2"/>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -4898,6 +4870,9 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="-83.82" x2="22.86" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="22.86" y="-76.2"/>
+<pinref part="U2" gate="G$1" pin="CS_A/G"/>
+<wire x1="53.34" y1="-132.08" x2="53.34" y2="-142.24" width="0.1524" layer="91"/>
+<junction x="53.34" y="-142.24"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VDD@2"/>
@@ -4914,8 +4889,10 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <wire x1="48.26" y1="-40.64" x2="48.26" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="1"/>
 <pinref part="C23" gate="G$1" pin="1"/>
-<pinref part="P+3" gate="VCC" pin="VCC"/>
 <label x="48.26" y="-33.02" size="1.778" layer="95"/>
+<junction x="48.26" y="-35.56"/>
+<junction x="48.26" y="-40.64"/>
+<junction x="63.5" y="-78.74"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="7"/>
@@ -5031,12 +5008,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <pinref part="C24" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="CS_A/G"/>
-<wire x1="53.34" y1="-132.08" x2="53.34" y2="-142.24" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SDA" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="2"/>
@@ -5075,19 +5046,12 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <label x="27.94" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="D5" gate="G$1" pin="C"/>
-<pinref part="D6" gate="G$1" pin="A"/>
-<wire x1="-101.6" y1="45.72" x2="-96.52" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PG0(DIG3)"/>
-<pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="-83.82" y1="-43.18" x2="-101.6" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="-43.18" x2="-101.6" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -5095,7 +5059,35 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <pinref part="U1" gate="G$1" pin="PG1(DIG1)"/>
 <wire x1="-83.82" y1="-45.72" x2="-106.68" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="-106.68" y1="-45.72" x2="-106.68" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="D8" gate="G$1" pin="A"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="-104.14" y1="78.74" x2="-101.6" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="78.74" x2="-101.6" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="73.66" x2="-109.22" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="D9" gate="G$1" pin="A"/>
+<wire x1="-109.22" y1="73.66" x2="-109.22" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="73.66" x2="-93.98" y2="73.66" width="0.1524" layer="91"/>
+<junction x="-101.6" y="73.66"/>
+<pinref part="D10" gate="G$1" pin="A"/>
+<wire x1="-93.98" y1="73.66" x2="-93.98" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="-106.68" y1="-60.96" x2="-106.68" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="-101.6" y1="-30.48" x2="-101.6" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="D6" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>

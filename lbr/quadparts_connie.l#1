@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -71,7 +71,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="41" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="11" fill="1" visible="no" active="yes"/>
@@ -493,40 +493,36 @@
 <wire x1="1.4" y1="0.6" x2="-1.2" y2="0.6" width="0.127" layer="39"/>
 </package>
 <package name="IMU_LSM9DS1TR">
-<smd name="DRDY_M" x="-0.22" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
-<smd name="INT_M" x="0.22" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
-<smd name="INT1_A/G" x="0.66" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
-<smd name="INT2_A/G" x="1.1" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
-<smd name="DEN_A/G" x="1.54" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
-<smd name="CS_M" x="-0.66" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
-<smd name="CS_A/G" x="-1.1" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R180"/>
-<smd name="SDO_M" x="-1.54" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
-<smd name="VDDIO@2" x="-1.95" y="0.223" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
-<smd name="SDA/SDI/SDO" x="-1.95" y="-0.223" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
-<smd name="SDO_A/G" x="-1.95" y="-0.67" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
-<smd name="SCL/SPC" x="-1.95" y="0.67" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
-<smd name="RES@3" x="1.95" y="0.223" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
-<smd name="RES@2" x="1.95" y="-0.223" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
-<smd name="RES@1" x="1.95" y="-0.67" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
-<smd name="RES@4" x="1.95" y="0.67" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
-<smd name="VDD@1" x="-0.22" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
-<smd name="CAP" x="0.22" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
-<smd name="GND@2" x="0.66" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
-<smd name="GND@1" x="1.1" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
-<smd name="RES@5" x="1.54" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
-<smd name="VDD@2" x="-0.66" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
-<smd name="C1" x="-1.1" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R180"/>
-<smd name="VDDIO@1" x="-1.54" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
+<smd name="DRDY_M" x="-0.22" y="-1.7" dx="0.28" dy="1.4" layer="1"/>
+<smd name="INT_M" x="0.22" y="-1.7" dx="0.28" dy="1.4" layer="1"/>
+<smd name="INT1_A/G" x="0.66" y="-1.7" dx="0.28" dy="1.4" layer="1"/>
+<smd name="INT2_A/G" x="1.1" y="-1.7" dx="0.28" dy="1.4" layer="1"/>
+<smd name="DEN_A/G" x="1.54" y="-1.7" dx="0.28" dy="1.4" layer="1"/>
+<smd name="CS_M" x="-0.66" y="-1.7" dx="0.28" dy="1.4" layer="1"/>
+<smd name="CS_A/G" x="-1.1" y="-1.7" dx="0.28" dy="1.4" layer="1" rot="R180"/>
+<smd name="SDO_M" x="-1.54" y="-1.7" dx="0.28" dy="1.4" layer="1"/>
+<smd name="VDDIO@2" x="-1.95" y="0.223" dx="0.28" dy="1.4" layer="1" rot="R90"/>
+<smd name="SDA/SDI/SDO" x="-1.95" y="-0.223" dx="0.28" dy="1.4" layer="1" rot="R90"/>
+<smd name="SDO_A/G" x="-1.95" y="-0.67" dx="0.28" dy="1.4" layer="1" rot="R90"/>
+<smd name="SCL/SPC" x="-1.95" y="0.67" dx="0.28" dy="1.4" layer="1" rot="R90"/>
+<smd name="RES@3" x="1.95" y="0.223" dx="0.28" dy="1.4" layer="1" rot="R90"/>
+<smd name="RES@2" x="1.95" y="-0.223" dx="0.28" dy="1.4" layer="1" rot="R90"/>
+<smd name="RES@1" x="1.95" y="-0.67" dx="0.28" dy="1.4" layer="1" rot="R90"/>
+<smd name="RES@4" x="1.95" y="0.67" dx="0.28" dy="1.4" layer="1" rot="R90"/>
+<smd name="VDD@1" x="-0.22" y="1.7" dx="0.28" dy="1.4" layer="1"/>
+<smd name="CAP" x="0.22" y="1.7" dx="0.28" dy="1.4" layer="1"/>
+<smd name="GND@2" x="0.66" y="1.7" dx="0.28" dy="1.4" layer="1"/>
+<smd name="GND@1" x="1.1" y="1.7" dx="0.28" dy="1.4" layer="1"/>
+<smd name="RES@5" x="1.54" y="1.7" dx="0.28" dy="1.4" layer="1"/>
+<smd name="VDD@2" x="-0.66" y="1.7" dx="0.28" dy="1.4" layer="1"/>
+<smd name="C1" x="-1.1" y="1.7" dx="0.28" dy="1.4" layer="1" rot="R180"/>
+<smd name="VDDIO@1" x="-1.54" y="1.7" dx="0.28" dy="1.4" layer="1"/>
 <circle x="-1" y="0.7" radius="0.1" width="0.127" layer="21"/>
 <text x="-1.9" y="2.5" size="0.88" layer="25" font="vector">&gt;NAME</text>
 <wire x1="-2.8" y1="2.5" x2="-2.8" y2="-2.5" width="0.127" layer="39"/>
 <wire x1="-2.8" y1="-2.5" x2="2.8" y2="-2.5" width="0.127" layer="39"/>
 <wire x1="2.8" y1="-2.5" x2="2.8" y2="2.5" width="0.127" layer="39"/>
 <wire x1="2.8" y1="2.5" x2="-2.8" y2="2.5" width="0.127" layer="39"/>
-<wire x1="-1.7" y1="1.5" x2="-1.7" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-1.7" y1="-1.5" x2="1.7" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="1.7" y1="-1.5" x2="1.7" y2="1.5" width="0.127" layer="51"/>
-<wire x1="1.7" y1="1.5" x2="-1.7" y2="1.5" width="0.127" layer="51"/>
 </package>
 <package name="N_MOSFET_SI2302CDS_T1_E3">
 <smd name="3D" x="0" y="1.484" dx="0.559" dy="1.724" layer="1"/>

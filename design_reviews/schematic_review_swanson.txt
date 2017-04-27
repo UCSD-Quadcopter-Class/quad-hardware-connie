@@ -1,20 +1,20 @@
-Flyback and Filtered are connected across all your motor controllers
+//Flyback and Filtered are connected across all your motor controllers 
 
-You need a separate resistor for each LED.
+//You need a separate resistor for each LED. 
 
-1uf Cap in motor controllers should be 0.1uF
+//1uf Cap in motor controllers should be 0.1uF 
 
 
-Remove "Jump" caps in radio driver.  Just use a wire.
+//Remove "Jump" caps in radio driver.  Just use a wire.
 
 Several pins on you IMU are not connected, but should be.  Read the table in the data sheet that explain which pins do what.
 
-By convention the GND symbol should always point down.  Some of yours point side ways or up.
+//By convention the GND symbol should always point down.  Some of yours point side ways or up.
 
-No attributes are set on some of your resistors.
+//No attributes are set on some of your resistors.
 
 Your IMU symbol is not great.  Arranging the pins on the symbol to match the physical layout of pins on package doesn't make for a very intuitive symbol.  It would be better to group related signals near eachother.
 
-You would put the jumper between the positive battery terminal and VBAT rather than connecting to EN on the voltage regulator.  ALso, as it's wired the jumper will pull EN low, which will turn off power.  You could, I guess, connect VBAT to EN through the jumper, but VBAT may be noisy and I'd worry about noise on EN adversely affecting the regulator.
+//You would put the jumper between the positive battery terminal and VBAT rather than connecting to EN on the voltage regulator.  ALso, as it's wired the jumper will pull EN low, which will turn off power.  You could, I guess, connect VBAT to EN through the jumper, but VBAT may be noisy and I'd worry about noise on EN adversely affecting the regulator.
 
     

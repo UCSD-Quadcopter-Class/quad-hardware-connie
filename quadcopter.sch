@@ -4844,8 +4844,24 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <wire x1="53.34" y1="-142.24" x2="12.7" y2="-142.24" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="CS_A/G"/>
 <wire x1="53.34" y1="-132.08" x2="53.34" y2="-142.24" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="-142.24" x2="12.7" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-142.24" x2="12.7" y2="-132.08" width="0.1524" layer="91"/>
 <junction x="12.7" y="-76.2"/>
+<pinref part="U2" gate="G$1" pin="SDO_A/G"/>
+<wire x1="12.7" y1="-132.08" x2="12.7" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-116.84" x2="12.7" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-116.84" x2="12.7" y2="-116.84" width="0.1524" layer="91"/>
+<junction x="12.7" y="-116.84"/>
+<pinref part="U2" gate="G$1" pin="CS_M"/>
+<wire x1="58.42" y1="-132.08" x2="58.42" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-142.24" x2="53.34" y2="-142.24" width="0.1524" layer="91"/>
+<junction x="53.34" y="-142.24"/>
+<pinref part="U2" gate="G$1" pin="SDO_M"/>
+<wire x1="48.26" y1="-132.08" x2="12.7" y2="-132.08" width="0.1524" layer="91"/>
+<junction x="12.7" y="-132.08"/>
+<pinref part="U2" gate="G$1" pin="DEN_A/G"/>
+<wire x1="83.82" y1="-132.08" x2="83.82" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="-142.24" x2="58.42" y2="-142.24" width="0.1524" layer="91"/>
+<junction x="58.42" y="-142.24"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VDD@2"/>

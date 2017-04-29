@@ -6,23 +6,9 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -179,46 +165,20 @@
 <wire x1="76.2" y1="-63.5" x2="76.2" y2="63.5" width="0.4064" layer="51"/>
 <wire x1="76.2" y1="63.5" x2="-76.2" y2="63.5" width="0.4064" layer="51"/>
 <wire x1="-76.2" y1="63.5" x2="-76.2" y2="-63.5" width="0.4064" layer="51"/>
-<wire x1="-28" y1="22" x2="-53.3" y2="47.3" width="0.4064" layer="20"/>
-<wire x1="-35.1" y1="14.9" x2="-60.5" y2="40.4" width="0.4064" layer="20"/>
-<wire x1="-73.9" y1="56.8" x2="-60.5" y2="40.4" width="0.4064" layer="20" curve="138.779121"/>
-<wire x1="-68.7" y1="61.5" x2="-53.3" y2="47.3" width="0.4064" layer="20" curve="-137.531715"/>
-<wire x1="-67.6" y1="53.1" x2="-65.4" y2="55" width="0.4064" layer="20" curve="319.43053"/>
-<wire x1="-73.9" y1="56.8" x2="-67.6" y2="53.1" width="0.4064" layer="20"/>
-<wire x1="-68.7" y1="61.5" x2="-65.4" y2="55" width="0.4064" layer="20"/>
-<wire x1="-34.8" y1="-15.2" x2="-60.1" y2="-40.7" width="0.4064" layer="20"/>
-<wire x1="-27.6" y1="-22.4" x2="-53.2" y2="-47.9" width="0.4064" layer="20"/>
-<wire x1="-69.6" y1="-61.3" x2="-53.2" y2="-47.9" width="0.4064" layer="20" curve="138.779121"/>
-<wire x1="-74.3" y1="-56.1" x2="-60.1" y2="-40.7" width="0.4064" layer="20" curve="-137.531715"/>
-<wire x1="-65.9" y1="-55" x2="-67.8" y2="-52.8" width="0.4064" layer="20" curve="319.43053"/>
-<wire x1="-69.6" y1="-61.3" x2="-65.9" y2="-55" width="0.4064" layer="20"/>
-<wire x1="-74.3" y1="-56.1" x2="-67.8" y2="-52.8" width="0.4064" layer="20"/>
-<wire x1="28" y1="-22.1" x2="53.5" y2="-47.3" width="0.4064" layer="20"/>
-<wire x1="35.4" y1="-14.7" x2="60.7" y2="-40.4" width="0.4064" layer="20"/>
-<wire x1="74.1" y1="-56.8" x2="60.7" y2="-40.4" width="0.4064" layer="20" curve="138.779121"/>
-<wire x1="68.9" y1="-61.5" x2="53.5" y2="-47.3" width="0.4064" layer="20" curve="-137.531715"/>
-<wire x1="67.8" y1="-53.1" x2="65.6" y2="-55" width="0.4064" layer="20" curve="319.43053"/>
-<wire x1="74.1" y1="-56.8" x2="67.8" y2="-53.1" width="0.4064" layer="20"/>
-<wire x1="68.9" y1="-61.5" x2="65.6" y2="-55" width="0.4064" layer="20"/>
-<wire x1="34.8" y1="15.2" x2="60.1" y2="40.5" width="0.4064" layer="20"/>
-<wire x1="27.8" y1="22.2" x2="53.2" y2="47.7" width="0.4064" layer="20"/>
-<wire x1="69.6" y1="61.1" x2="53.2" y2="47.7" width="0.4064" layer="20" curve="138.779121"/>
-<wire x1="74.3" y1="55.9" x2="60.1" y2="40.5" width="0.4064" layer="20" curve="-137.531715"/>
-<wire x1="65.9" y1="54.8" x2="67.8" y2="52.6" width="0.4064" layer="20" curve="319.43053"/>
-<wire x1="69.6" y1="61.1" x2="65.9" y2="54.8" width="0.4064" layer="20"/>
-<wire x1="74.3" y1="55.9" x2="67.8" y2="52.6" width="0.4064" layer="20"/>
-<wire x1="75" y1="0" x2="35.332821875" y2="-14.667178125" width="0.4064" layer="20"/>
-<wire x1="27.97626875" y1="-22.02373125" x2="1" y2="-62" width="0.4064" layer="20"/>
-<wire x1="-34.7607" y1="-15.2393" x2="-34.8" y2="-15.2" width="0.4064" layer="20"/>
-<wire x1="-34.8" y1="-15.2" x2="-75" y2="0" width="0.4064" layer="20"/>
-<wire x1="1" y1="-62" x2="-27.6" y2="-22.4" width="0.4064" layer="20"/>
-<wire x1="-27.6" y1="-22.4" x2="-27.63263125" y2="-22.36736875" width="0.4064" layer="20"/>
-<wire x1="-75" y1="0" x2="-35.1" y2="14.9" width="0.4064" layer="20"/>
-<wire x1="-35.1" y1="14.9" x2="-35.08736875" y2="14.91263125" width="0.4064" layer="20"/>
-<wire x1="-28.021725" y1="21.978275" x2="-28" y2="22" width="0.4064" layer="20"/>
-<wire x1="-28" y1="22" x2="0" y2="62" width="0.4064" layer="20"/>
-<wire x1="0" y1="62" x2="27.7793" y2="22.2207" width="0.4064" layer="20"/>
-<wire x1="34.801653125" y1="15.198346875" x2="75" y2="0" width="0.4064" layer="20"/>
+<wire x1="-37.8" y1="0" x2="-37.8" y2="8.4" width="0.4064" layer="20" curve="180"/>
+<circle x="-40.1" y="39.7" radius="4.2" width="0.4064" layer="1"/>
+<wire x1="-63" y1="50.4" x2="-63" y2="42" width="0.4064" layer="20" curve="180"/>
+<wire x1="-54.6" y1="44.1" x2="-58.8" y2="39.9" width="0.4064" layer="20" curve="90"/>
+<wire x1="-65.2" y1="40" x2="-67.6" y2="32.4" width="0.4064" layer="20" curve="142.309247"/>
+<wire x1="-50.8" y1="33.8" x2="-43.2" y2="31.4" width="0.4064" layer="20" curve="142.309247"/>
+<wire x1="-32.8" y1="43.4" x2="-28.4" y2="37" width="0.4064" layer="20" curve="134.822063"/>
+<wire x1="-31.6" y1="44.6" x2="-25.2" y2="40.4" width="0.4064" layer="20" curve="-132.999417"/>
+<wire x1="-33.8" y1="46.8" x2="-22.6" y2="38.6" width="0.4064" layer="20" curve="-147.761699"/>
+<wire x1="-35.6" y1="45" x2="-25.8" y2="34.8" width="0.4064" layer="20" curve="150.86202"/>
+<wire x1="-35.4" y1="45" x2="-32.8" y2="43.4" width="0.4064" layer="20"/>
+<wire x1="-33.8" y1="46.8" x2="-31.6" y2="44.6" width="0.4064" layer="20"/>
+<wire x1="-3.4" y1="17" x2="-25.68265625" y2="34.946125" width="0.4064" layer="20"/>
+<wire x1="0" y1="20" x2="-22.528571875" y2="38.618365625" width="0.4064" layer="20"/>
 </plain>
 <libraries>
 <library name="quadparts_prebuilt">
@@ -2584,7 +2544,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="jason-connie-4pcb-66board">
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -2599,26 +2559,26 @@ a wide range of applications. Your particular design
 may have different requirements, so please make the
 necessary adjustments and save your customized
 design rules under a new name.</description>
-<param name="layerSetup" value="(1*2*15*16)"/>
-<param name="mtCopper" value="0.035559375mm 0.035559375mm 0.035559375mm 0.035559375mm 0.035559375mm 0.035559375mm 0.035559375mm 0.035559375mm 0.035559375mm 0.035559375mm 0.035559375mm 0.035559375mm 0.035559375mm 0.035559375mm 0.035559375mm 0.035559375mm"/>
-<param name="mtIsolate" value="1.501140625mm 0.149859375mm 0.200659375mm 0.149859375mm 0.200659375mm 0.149859375mm 0.200659375mm 0.149859375mm 0.200659375mm 0.149859375mm 0.200659375mm 0.149859375mm 0.200659375mm 0.149859375mm 0.200659375mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="6mil"/>
-<param name="mdSmdSmd" value="6mil"/>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="8mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="8mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="8mil"/>
+<param name="mdSmdVia" value="8mil"/>
+<param name="mdSmdSmd" value="8mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="10mil"/>
-<param name="mdDrill" value="10mil"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
-<param name="msDrill" value="15mil"/>
-<param name="msMicroVia" value="9.98981875mm"/>
+<param name="msWidth" value="10mil"/>
+<param name="msDrill" value="24mil"/>
+<param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -2629,7 +2589,7 @@ design rules under a new name.</description>
 <param name="rvMicroViaInner" value="0.25"/>
 <param name="rlMinPadTop" value="10mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="15mil"/>
+<param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
 <param name="rlMinPadBottom" value="10mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
@@ -2764,489 +2724,489 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="B1" library="quadparts_prebuilt" package="BALUN" value="BALUN0805" x="98.78" y="-6.22" rot="R90">
-<attribute name="DATASHEET" value="http://katalog.we-online.de/pbs/datasheet/748421245.pdf" x="98.78" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="98.78" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="732-2230-6-ND" x="98.78" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Wurth Electronics Inc" x="98.78" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="748421245" x="98.78" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="2.63" x="98.78" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="BATT1" library="quadparts_prebuilt" package="BATTERY-W/HOLDER-380MAH-HUBSAN" value="BATTERY-HUBSAN-W/HOLDER" x="0" y="0" rot="MR90">
-<attribute name="CREATOR" value="Swanson" x="0" y="0" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DIST" value="AMAZON" x="0" y="0" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DISTPN" value="http://www.amazon.com/dp/B00RROB6Q4?smid=AMNTPWSAB5H0S" x="0" y="0" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MFR" value="HUBSAN" x="0" y="0" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="X4-H107C-8-in-1" x="0" y="0" size="1.778" layer="28" rot="MR90" display="off"/>
-</element>
-<element name="C1" library="quadparts_connie" package="CERAMIC_CAP_0805" value="0.1uF" x="105.13" y="9.02" rot="R90">
-<attribute name="CREATOR" value="SWANSON" x="105.13" y="9.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="105.13" y="9.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-1666-1-ND" x="105.13" y="9.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="105.13" y="9.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21BR71H104KA01L" x="105.13" y="9.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="REVIEWER" value="" x="105.13" y="9.02" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C10" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="84.81" y="16.64" rot="R90">
-<attribute name="DIST" value="Digikey" x="84.81" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-4736-1-ND" x="84.81" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="84.81" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21BR71H105KA12L" x="84.81" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C11" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="84.81" y="10.29" rot="R90">
-<attribute name="DIST" value="Digikey" x="84.81" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-4736-1-ND" x="84.81" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="84.81" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21BR71H105KA12L" x="84.81" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C12" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="84.81" y="3.94" rot="R90">
-<attribute name="DIST" value="Digikey" x="84.81" y="3.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-4736-1-ND" x="84.81" y="3.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="84.81" y="3.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21BR71H105KA12L" x="84.81" y="3.94" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C13" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="84.81" y="-2.41" rot="R90">
-<attribute name="DIST" value="Digikey" x="84.81" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-4736-1-ND" x="84.81" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="84.81" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21BR71H105KA12L" x="84.81" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C14" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="12pF" x="88.62" y="-4.95" rot="R90">
-<attribute name="DIST" value="Digikey" x="88.62" y="-4.95" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-4736-1-ND" x="88.62" y="-4.95" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="88.62" y="-4.95" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21BR71H105KA12L" x="88.62" y="-4.95" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C15" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="12pF" x="88.62" y="-12.57" rot="R90">
-<attribute name="DIST" value="Digikey" x="88.62" y="-12.57" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-4736-1-ND" x="88.62" y="-12.57" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="88.62" y="-12.57" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21BR71H105KA12L" x="88.62" y="-12.57" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C16" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.01uF" x="93.7" y="-30.35" rot="R90">
-<attribute name="DIST" value="Digikey" x="93.7" y="-30.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-8295-1-ND" x="93.7" y="-30.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="93.7" y="-30.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM2195C1H103FA01D" x="93.7" y="-30.35" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C18" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="22pF" x="88.62" y="-20.19" rot="R90">
-<attribute name="DIST" value="Digikey" x="88.62" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-5534-1-ND" x="88.62" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="88.62" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21A5C2E220JW01D" x="88.62" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C19" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.75pF" x="93.7" y="-39.24" rot="R90">
-<attribute name="DIST" value="Digikey" x="93.7" y="-39.24" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-3585-1-ND" x="93.7" y="-39.24" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="93.7" y="-39.24" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GQM2195C2AR75CB01D" x="93.7" y="-39.24" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C2" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="100uF" x="105.13" y="-8.76" rot="R90">
-<attribute name="DIST" value="Digikey" x="105.13" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="478-8912-1-ND" x="105.13" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="AVX Corporation" x="105.13" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="TAJD227K006RNJ" x="105.13" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C20" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.1uF" x="88.62" y="17.91" rot="R90">
-<attribute name="DIST" value="Digikey" x="88.62" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-1666-1-ND" x="88.62" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="88.62" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21BR71H104KA01L" x="88.62" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C21" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.01uF" x="88.62" y="25.53" rot="R90">
-<attribute name="DIST" value="Digikey" x="88.62" y="25.53" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-8295-1-ND" x="88.62" y="25.53" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="88.62" y="25.53" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM2195C1H103FA01D" x="88.62" y="25.53" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C22" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.1uF" x="88.62" y="10.29" rot="R90">
-<attribute name="DIST" value="Digikey" x="88.62" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-1666-1-ND" x="88.62" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="88.62" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21BR71H104KA01L" x="88.62" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C23" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="10uF" x="88.62" y="-27.81" rot="R90">
-<attribute name="DIST" value="Digikey" x="88.62" y="-27.81" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-5523-1-ND" x="88.62" y="-27.81" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="88.62" y="-27.81" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21BR61E106KA73L" x="88.62" y="-27.81" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C25" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.1uF" x="88.62" y="2.67" rot="R90">
-<attribute name="DIST" value="Digikey" x="88.62" y="2.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-1666-1-ND" x="88.62" y="2.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="88.62" y="2.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21BR71H104KA01L" x="88.62" y="2.67" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C3" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="88.62" y="-34.16" rot="R90">
-<attribute name="DIST" value="Digikey" x="88.62" y="-34.16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-4736-1-ND" x="88.62" y="-34.16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="88.62" y="-34.16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21BR71H105KA12L" x="88.62" y="-34.16" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C4" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="100uF" x="105.13" y="-20.19" rot="R90">
-<attribute name="DIST" value="Digikey" x="105.13" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="478-8912-1-ND" x="105.13" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="AVX Corporation" x="105.13" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="TAJD227K006RNJ" x="105.13" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C5" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="88.62" y="-40.51" rot="R90">
-<attribute name="DIST" value="Digikey" x="88.62" y="-40.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-4736-1-ND" x="88.62" y="-40.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="88.62" y="-40.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21BR71H105KA12L" x="88.62" y="-40.51" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C6" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="100uF" x="105.13" y="-31.62" rot="R90">
-<attribute name="DIST" value="Digikey" x="105.13" y="-31.62" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="478-8912-1-ND" x="105.13" y="-31.62" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="AVX Corporation" x="105.13" y="-31.62" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="TAJD227K006RNJ" x="105.13" y="-31.62" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C7" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="84.81" y="29.34" rot="R90">
-<attribute name="DIST" value="Digikey" x="84.81" y="29.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-4736-1-ND" x="84.81" y="29.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="84.81" y="29.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21BR71H105KA12L" x="84.81" y="29.34" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C8" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="100uF" x="97.51" y="26.8" rot="R90">
-<attribute name="DIST" value="Digikey" x="97.51" y="26.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="478-8912-1-ND" x="97.51" y="26.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="AVX Corporation" x="97.51" y="26.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="TAJD227K006RNJ" x="97.51" y="26.8" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C9" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="84.81" y="22.99" rot="R90">
-<attribute name="DIST" value="Digikey" x="84.81" y="22.99" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="490-4736-1-ND" x="84.81" y="22.99" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="84.81" y="22.99" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM21BR71H105KA12L" x="84.81" y="22.99" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="D1" library="quadparts_prebuilt" package="SOD3716X135_HS" value="20V-500MA" x="92.43" y="21.72" rot="R90">
-<attribute name="DATASHEET" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATA_SHEET" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DB" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DEVICE" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IMAGE" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IRECT" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MIN_QTY" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PACKAGE" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZE" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="STOCK" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VREV" value="" x="92.43" y="21.72" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="D10" library="LEDs" package="LED_OVS5MXBCR4" value="Green" x="125.45" y="-2.41" rot="R90">
-<attribute name="CREATOR" value="Jason Shiuan" x="125.45" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="125.45" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="365-1545-1-ND" x="125.45" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="TT Electronics/Optek Technology" x="125.45" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="OVS5MGBCR4" x="125.45" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="REVIEWER" value="" x="125.45" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="D2" library="quadparts_prebuilt" package="SOD3716X135_HS" value="20V-500MA" x="92.43" y="7.75" rot="R90">
-<attribute name="DATASHEET" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATA_SHEET" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DB" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DEVICE" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IMAGE" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IRECT" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MIN_QTY" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PACKAGE" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZE" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="STOCK" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VREV" value="" x="92.43" y="7.75" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="D3" library="quadparts_prebuilt" package="SOD3716X135_HS" value="20V-500MA" x="92.43" y="-6.22" rot="R90">
-<attribute name="DATASHEET" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATA_SHEET" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DB" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DEVICE" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IMAGE" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IRECT" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MIN_QTY" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PACKAGE" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZE" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="STOCK" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VREV" value="" x="92.43" y="-6.22" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="D4" library="quadparts_prebuilt" package="SOD3716X135_HS" value="20V-500MA" x="92.43" y="-20.19" rot="R90">
-<attribute name="DATASHEET" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATA_SHEET" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DB" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DEVICE" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IMAGE" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="IRECT" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MIN_QTY" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PACKAGE" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZE" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="STOCK" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VREV" value="" x="92.43" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="D5" library="LEDs" package="LED_VLMX51Z1AA" value="Red" x="125.45" y="28.07" rot="R90">
-<attribute name="CREATOR" value="Jason Shiuan" x="125.45" y="28.07" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="125.45" y="28.07" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="VLMR51Z1AA-GS08CT-ND" x="125.45" y="28.07" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Vishay" x="125.45" y="28.07" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="VLMR51Z1AA-GS08" x="125.45" y="28.07" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="REVIEWER" value="" x="125.45" y="28.07" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="D6" library="LEDs" package="LED_VLMX51Z1AA" value="Yellow" x="125.45" y="17.91" rot="R90">
-<attribute name="CREATOR" value="Jason Shiuan" x="125.45" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="125.45" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="VLMY51Z1AA-GS08CT-ND" x="125.45" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Vishay" x="125.45" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="VLMY51Z1AA-GS08" x="125.45" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="REVIEWER" value="" x="125.45" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="D9" library="LEDs" package="LED_OVS5MXBCR4" value="Blue" x="125.95" y="7.85" rot="R90">
-<attribute name="CREATOR" value="Jason Shiuan" x="125.95" y="7.85" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="125.95" y="7.85" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="365-1544-1-ND" x="125.95" y="7.85" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="TT Electronics/Optek Technology" x="125.95" y="7.85" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="OVS5MBBCR4" x="125.95" y="7.85" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="REVIEWER" value="" x="125.95" y="7.85" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="J1" library="quadparts_prebuilt" package="2X3-NS" value="AVR_SPI_PRG_6NS" x="136.89" y="-47.27" rot="R90">
-<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" x="136.89" y="-47.27" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="136.89" y="-47.27" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="609-3234-ND" x="136.89" y="-47.27" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Amphenol FCI" x="136.89" y="-47.27" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="67997-206HLF" x="136.89" y="-47.27" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="0.31" x="136.89" y="-47.27" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="J2" library="quadparts_connie" package="MALE_HEADER_2X1_0.1IN" value="" x="112.75" y="-34.16" rot="R90">
-<attribute name="CREATOR" value="SWANSON" x="112.75" y="-34.16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="112.75" y="-34.16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="3M9447-ND" x="112.75" y="-34.16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="3M" x="112.75" y="-34.16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="961102-6404-AR" x="112.75" y="-34.16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="REVIEWER" value="" x="112.75" y="-34.16" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="J3" library="quadparts_prebuilt" package="HDRV10W63P254_10X1_2540X254H838_HS" value="" x="98.78" y="-32.89" rot="R90">
-<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf" x="98.78" y="-32.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="98.78" y="-32.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="609-3250-ND" x="98.78" y="-32.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Amphenol FCI" x="98.78" y="-32.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="68000-110HLF" x="98.78" y="-32.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="0.55" x="98.78" y="-32.89" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="JP1" library="quadparts_prebuilt" package="FTDI_BASIC" value="FTDI_BASICPTH" x="114.02" y="17.91" rot="R90">
-<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf" x="114.02" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="114.02" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="609-3327-ND" x="114.02" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Amphenol FCI" x="114.02" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="68016-406HLF" x="114.02" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="0.33" x="114.02" y="17.91" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="JP2" library="quadparts_prebuilt" package="FTDI_BASIC" value="FTDI_BASICPTH" x="114.02" y="1.4" rot="R90">
-<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf" x="114.02" y="1.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="114.02" y="1.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="609-3327-ND" x="114.02" y="1.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Amphenol FCI" x="114.02" y="1.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="68016-406HLF" x="114.02" y="1.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="0.33" x="114.02" y="1.4" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="NET_BRIDGE" library="quadparts_jason" package="NET_BRIDGE" value="NET_BRIDGE" x="81" y="-18.92" rot="R90">
-<attribute name="CREATPR" value="Jason Shiuan" x="81" y="-18.92" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="Q1" library="quadparts_connie" package="N_MOSFET_SI2302CDS_T1_E3" value="2.6A" x="97.51" y="16.64" rot="R90">
-<attribute name="CREATOR" value="Connie Du" x="97.51" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="97.51" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="97.51" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Vishay Siliconix" x="97.51" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="SI2302CDS-T1-E3" x="97.51" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="REVIEWER" value="" x="97.51" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="Q2" library="quadparts_connie" package="N_MOSFET_SI2302CDS_T1_E3" value="2.6A" x="97.51" y="10.29" rot="R90">
-<attribute name="CREATOR" value="Connie Du" x="97.51" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="97.51" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="97.51" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Vishay Siliconix" x="97.51" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="SI2302CDS-T1-E3" x="97.51" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="REVIEWER" value="" x="97.51" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="Q3" library="quadparts_connie" package="N_MOSFET_SI2302CDS_T1_E3" value="2.6A" x="97.51" y="3.94" rot="R90">
-<attribute name="CREATOR" value="Connie Du" x="97.51" y="3.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="97.51" y="3.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="97.51" y="3.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Vishay Siliconix" x="97.51" y="3.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="SI2302CDS-T1-E3" x="97.51" y="3.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="REVIEWER" value="" x="97.51" y="3.94" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="Q4" library="quadparts_connie" package="N_MOSFET_SI2302CDS_T1_E3" value="2.6A" x="97.51" y="-2.41" rot="R90">
-<attribute name="CREATOR" value="Connie Du" x="97.51" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="97.51" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="97.51" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Vishay Siliconix" x="97.51" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="SI2302CDS-T1-E3" x="97.51" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="REVIEWER" value="" x="97.51" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R1" library="quadparts_prebuilt" package="RESC2012X60_HS" value="10K" x="84.81" y="-8.76" rot="R90">
-<attribute name="DIST" value="Digikey" x="84.81" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="311-10KARCT-ND" x="84.81" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Yageo" x="84.81" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805JR-0710KL" x="84.81" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R10" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="81" y="10.29" rot="R90">
-<attribute name="DIST" value="Digikey" x="81" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="311-100ARCT-ND" x="81" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Yageo" x="81" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805JR-07100RL" x="81" y="10.29" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R11" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="81" y="3.94" rot="R90">
-<attribute name="DIST" value="Digikey" x="81" y="3.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="311-100ARCT-ND" x="81" y="3.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Yageo" x="81" y="3.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805JR-07100RL" x="81" y="3.94" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R15" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="81" y="-2.41" rot="R90">
-<attribute name="DIST" value="Digikey" x="81" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="311-100ARCT-ND" x="81" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Yageo" x="81" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805JR-07100RL" x="81" y="-2.41" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R16" library="quadparts_prebuilt" package="RESC2012X60_HS" value="10K" x="81" y="-8.76" rot="R90">
-<attribute name="DIST" value="Digikey" x="81" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="311-10KARCT-ND" x="81" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Yageo" x="81" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805JR-0710KL" x="81" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R17" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="81" y="-15.11" rot="R90">
-<attribute name="DIST" value="Digikey" x="81" y="-15.11" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="311-100ARCT-ND" x="81" y="-15.11" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Yageo" x="81" y="-15.11" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805JR-07100RL" x="81" y="-15.11" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R2" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="84.81" y="-15.11" rot="R90">
-<attribute name="DIST" value="Digikey" x="84.81" y="-15.11" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="311-100ARCT-ND" x="84.81" y="-15.11" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Yageo" x="84.81" y="-15.11" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805JR-07100RL" x="84.81" y="-15.11" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R3" library="quadparts_prebuilt" package="RESC2012X60_HS" value="10K" x="84.81" y="-21.46" rot="R90">
-<attribute name="DIST" value="Digikey" x="84.81" y="-21.46" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="311-10KARCT-ND" x="84.81" y="-21.46" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Yageo" x="84.81" y="-21.46" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805JR-0710KL" x="84.81" y="-21.46" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R4" library="quadparts_prebuilt" package="RESC2012X60_HS" value="10K" x="84.81" y="-27.81" rot="R90">
-<attribute name="DIST" value="Digikey" x="84.81" y="-27.81" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="311-10KARCT-ND" x="84.81" y="-27.81" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Yageo" x="84.81" y="-27.81" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805JR-0710KL" x="84.81" y="-27.81" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R5" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="84.81" y="-34.16" rot="R90">
-<attribute name="DIST" value="Digikey" x="84.81" y="-34.16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="311-100ARCT-ND" x="84.81" y="-34.16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Yageo" x="84.81" y="-34.16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805JR-07100RL" x="84.81" y="-34.16" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R6" library="quadparts_prebuilt" package="RESC2012X60_HS" value="10K" x="84.81" y="-40.51" rot="R90">
-<attribute name="DIST" value="Digikey" x="84.81" y="-40.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="311-10KARCT-ND" x="84.81" y="-40.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Yageo" x="84.81" y="-40.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805JR-0710KL" x="84.81" y="-40.51" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R7" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="81" y="29.34" rot="R90">
-<attribute name="DIST" value="Digikey" x="81" y="29.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="311-100ARCT-ND" x="81" y="29.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Yageo" x="81" y="29.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805JR-07100RL" x="81" y="29.34" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R8" library="quadparts_prebuilt" package="RESC2012X60_HS" value="10K" x="81" y="22.99" rot="R90">
-<attribute name="DIST" value="Digikey" x="81" y="22.99" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="311-10KARCT-ND" x="81" y="22.99" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Yageo" x="81" y="22.99" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805JR-0710KL" x="81" y="22.99" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R9" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="81" y="16.64" rot="R90">
-<attribute name="DIST" value="Digikey" x="81" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="311-100ARCT-ND" x="81" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Yageo" x="81" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805JR-07100RL" x="81" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="U$1" library="quadparts_prebuilt" package="ANTENNA-CHIP5" value="ANTENNA2SMD5" x="106.4" y="2.67" rot="R90">
-<attribute name="DATASHEET" value="http://www.linxtechnologies.com/resources/data-guides/ant-xxx-chp-x.pdf" x="106.4" y="2.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="106.4" y="2.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="ANT-2.45-CHPCT-ND" x="106.4" y="2.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Linx Technologies Inc." x="106.4" y="2.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="ANT-2.45-CHP-T" x="106.4" y="2.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="3.16" x="106.4" y="2.67" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="U$2" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="115.29" y="-40.51" rot="R90">
-<attribute name="DIST" value="NA" x="115.29" y="-40.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="NA" x="115.29" y="-40.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="NA" x="115.29" y="-40.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="NA" x="115.29" y="-40.51" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="U$3" library="quadparts_prebuilt" package="SOT23-DBV" value="TPS73633-DBVT" x="112.75" y="-8.76" rot="R90">
-<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/lp3985.pdf" x="112.75" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="112.75" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="LP3985IM5X-3.0/NOPBCT-ND" x="112.75" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Texas Instruments" x="112.75" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="LP3985IM5X-3.0/NOPB" x="112.75" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="0.59" x="112.75" y="-8.76" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="U$4" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="105.13" y="29.34" rot="R90">
-<attribute name="DIST" value="NA" x="105.13" y="29.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="NA" x="105.13" y="29.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="NA" x="105.13" y="29.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="NA" x="105.13" y="29.34" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="U$5" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="105.13" y="22.99" rot="R90">
-<attribute name="DIST" value="NA" x="105.13" y="22.99" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="NA" x="105.13" y="22.99" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="NA" x="105.13" y="22.99" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="NA" x="105.13" y="22.99" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="U$6" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="105.13" y="16.64" rot="R90">
-<attribute name="DIST" value="NA" x="105.13" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="NA" x="105.13" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="NA" x="105.13" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="NA" x="105.13" y="16.64" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="U1" library="quadparts_prebuilt" package="QFN-64" value="ATMEGA128RFA1" x="156.02" y="-16.61" rot="R90">
-<attribute name="CREATOR" value="Swanson" x="156.02" y="-16.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-8266-MCU_Wireless-ATmega128RFA1_Datasheet.pdf" x="156.02" y="-16.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="156.02" y="-16.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="ATMEGA128RFA1-ZUR00DKR-ND" x="156.02" y="-16.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Atmel" x="156.02" y="-16.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="ATMEGA128RFA1-ZUR00" x="156.02" y="-16.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="10.21" x="156.02" y="-16.61" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="U2" library="quadparts_connie" package="IMU_LSM9DS1TR" value="IMU_LSM9DS1TR" x="115.29" y="-20.19" rot="R90">
-<attribute name="CREATOR" value="Connie Du" x="115.29" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="115.29" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="497-14946-1-ND" x="115.29" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="STMicroelectronics" x="115.29" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="LSM9DS1TR" x="115.29" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="REVIEWER" value="" x="115.29" y="-20.19" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="Y1" library="quadparts_prebuilt" package="CRYSTAL-SMD-5X3" value="16MHz" x="115.29" y="-26.54" rot="R90">
-<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/abm3b.pdf" x="115.29" y="-26.54" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="115.29" y="-26.54" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="535-9122-1-ND" x="115.29" y="-26.54" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Abracon LLC" x="115.29" y="-26.54" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="ABM3B-16.000MHZ-B2-T" x="115.29" y="-26.54" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="0.68" x="115.29" y="-26.54" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PROD_ID" value="XTAL-08218" x="115.29" y="-26.54" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="B1" library="quadparts_prebuilt" package="BALUN" value="BALUN0805" x="-41.52" y="211.98" rot="R90">
+<attribute name="DATASHEET" value="http://katalog.we-online.de/pbs/datasheet/748421245.pdf" x="-41.52" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-41.52" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="732-2230-6-ND" x="-41.52" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Wurth Electronics Inc" x="-41.52" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="748421245" x="-41.52" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="2.63" x="-41.52" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="BATT1" library="quadparts_prebuilt" package="BATTERY-W/HOLDER-380MAH-HUBSAN" value="BATTERY-HUBSAN-W/HOLDER" x="11.82" y="225.95" rot="R90">
+<attribute name="CREATOR" value="Swanson" x="11.82" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="AMAZON" x="11.82" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="http://www.amazon.com/dp/B00RROB6Q4?smid=AMNTPWSAB5H0S" x="11.82" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="HUBSAN" x="11.82" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="X4-H107C-8-in-1" x="11.82" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C1" library="quadparts_connie" package="CERAMIC_CAP_0805" value="0.1uF" x="-35.17" y="227.22" rot="R90">
+<attribute name="CREATOR" value="SWANSON" x="-35.17" y="227.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-35.17" y="227.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-1666-1-ND" x="-35.17" y="227.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-35.17" y="227.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L" x="-35.17" y="227.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="REVIEWER" value="" x="-35.17" y="227.22" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C10" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="-55.49" y="234.84" rot="R90">
+<attribute name="DIST" value="Digikey" x="-55.49" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-4736-1-ND" x="-55.49" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-55.49" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BR71H105KA12L" x="-55.49" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C11" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="-55.49" y="228.49" rot="R90">
+<attribute name="DIST" value="Digikey" x="-55.49" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-4736-1-ND" x="-55.49" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-55.49" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BR71H105KA12L" x="-55.49" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C12" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="-55.49" y="222.14" rot="R90">
+<attribute name="DIST" value="Digikey" x="-55.49" y="222.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-4736-1-ND" x="-55.49" y="222.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-55.49" y="222.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BR71H105KA12L" x="-55.49" y="222.14" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C13" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="-55.49" y="215.79" rot="R90">
+<attribute name="DIST" value="Digikey" x="-55.49" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-4736-1-ND" x="-55.49" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-55.49" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BR71H105KA12L" x="-55.49" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C14" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="12pF" x="-51.68" y="213.25" rot="R90">
+<attribute name="DIST" value="Digikey" x="-51.68" y="213.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-4736-1-ND" x="-51.68" y="213.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-51.68" y="213.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BR71H105KA12L" x="-51.68" y="213.25" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C15" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="12pF" x="-51.68" y="205.63" rot="R90">
+<attribute name="DIST" value="Digikey" x="-51.68" y="205.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-4736-1-ND" x="-51.68" y="205.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-51.68" y="205.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BR71H105KA12L" x="-51.68" y="205.63" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C16" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.01uF" x="-46.6" y="187.85" rot="R90">
+<attribute name="DIST" value="Digikey" x="-46.6" y="187.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-8295-1-ND" x="-46.6" y="187.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-46.6" y="187.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM2195C1H103FA01D" x="-46.6" y="187.85" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C18" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="22pF" x="-51.68" y="198.01" rot="R90">
+<attribute name="DIST" value="Digikey" x="-51.68" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-5534-1-ND" x="-51.68" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-51.68" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21A5C2E220JW01D" x="-51.68" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C19" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.75pF" x="-46.6" y="178.96" rot="R90">
+<attribute name="DIST" value="Digikey" x="-46.6" y="178.96" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-3585-1-ND" x="-46.6" y="178.96" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-46.6" y="178.96" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GQM2195C2AR75CB01D" x="-46.6" y="178.96" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C2" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="100uF" x="-35.17" y="209.44" rot="R90">
+<attribute name="DIST" value="Digikey" x="-35.17" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="478-8912-1-ND" x="-35.17" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="-35.17" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="TAJD227K006RNJ" x="-35.17" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C20" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.1uF" x="-51.68" y="236.11" rot="R90">
+<attribute name="DIST" value="Digikey" x="-51.68" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-1666-1-ND" x="-51.68" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-51.68" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L" x="-51.68" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C21" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.01uF" x="-51.68" y="243.73" rot="R90">
+<attribute name="DIST" value="Digikey" x="-51.68" y="243.73" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-8295-1-ND" x="-51.68" y="243.73" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-51.68" y="243.73" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM2195C1H103FA01D" x="-51.68" y="243.73" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C22" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.1uF" x="-51.68" y="228.49" rot="R90">
+<attribute name="DIST" value="Digikey" x="-51.68" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-1666-1-ND" x="-51.68" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-51.68" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L" x="-51.68" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C23" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="10uF" x="-51.68" y="190.39" rot="R90">
+<attribute name="DIST" value="Digikey" x="-51.68" y="190.39" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-5523-1-ND" x="-51.68" y="190.39" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-51.68" y="190.39" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BR61E106KA73L" x="-51.68" y="190.39" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C25" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.1uF" x="-51.68" y="220.87" rot="R90">
+<attribute name="DIST" value="Digikey" x="-51.68" y="220.87" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-1666-1-ND" x="-51.68" y="220.87" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-51.68" y="220.87" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L" x="-51.68" y="220.87" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C3" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="-51.68" y="184.04" rot="R90">
+<attribute name="DIST" value="Digikey" x="-51.68" y="184.04" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-4736-1-ND" x="-51.68" y="184.04" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-51.68" y="184.04" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BR71H105KA12L" x="-51.68" y="184.04" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C4" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="100uF" x="-35.17" y="198.01" rot="R90">
+<attribute name="DIST" value="Digikey" x="-35.17" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="478-8912-1-ND" x="-35.17" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="-35.17" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="TAJD227K006RNJ" x="-35.17" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C5" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="-51.68" y="177.69" rot="R90">
+<attribute name="DIST" value="Digikey" x="-51.68" y="177.69" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-4736-1-ND" x="-51.68" y="177.69" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-51.68" y="177.69" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BR71H105KA12L" x="-51.68" y="177.69" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C6" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="100uF" x="-35.17" y="186.58" rot="R90">
+<attribute name="DIST" value="Digikey" x="-35.17" y="186.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="478-8912-1-ND" x="-35.17" y="186.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="-35.17" y="186.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="TAJD227K006RNJ" x="-35.17" y="186.58" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C7" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="-55.49" y="247.54" rot="R90">
+<attribute name="DIST" value="Digikey" x="-55.49" y="247.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-4736-1-ND" x="-55.49" y="247.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-55.49" y="247.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BR71H105KA12L" x="-55.49" y="247.54" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C8" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="100uF" x="-42.79" y="245" rot="R90">
+<attribute name="DIST" value="Digikey" x="-42.79" y="245" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="478-8912-1-ND" x="-42.79" y="245" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="-42.79" y="245" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="TAJD227K006RNJ" x="-42.79" y="245" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C9" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="1uF" x="-55.49" y="241.19" rot="R90">
+<attribute name="DIST" value="Digikey" x="-55.49" y="241.19" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="490-4736-1-ND" x="-55.49" y="241.19" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-55.49" y="241.19" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BR71H105KA12L" x="-55.49" y="241.19" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D1" library="quadparts_prebuilt" package="SOD3716X135_HS" value="20V-500MA" x="-47.87" y="239.92" rot="R90">
+<attribute name="DATASHEET" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATA_SHEET" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DB" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DEVICE" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="IMAGE" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="IRECT" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MIN_QTY" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZE" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="STOCK" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VREV" value="" x="-47.87" y="239.92" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D10" library="LEDs" package="LED_OVS5MXBCR4" value="Green" x="-14.85" y="215.79" rot="R90">
+<attribute name="CREATOR" value="Jason Shiuan" x="-14.85" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-14.85" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="365-1545-1-ND" x="-14.85" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="TT Electronics/Optek Technology" x="-14.85" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="OVS5MGBCR4" x="-14.85" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="REVIEWER" value="" x="-14.85" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D2" library="quadparts_prebuilt" package="SOD3716X135_HS" value="20V-500MA" x="-47.87" y="225.95" rot="R90">
+<attribute name="DATASHEET" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATA_SHEET" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DB" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DEVICE" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="IMAGE" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="IRECT" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MIN_QTY" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZE" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="STOCK" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VREV" value="" x="-47.87" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D3" library="quadparts_prebuilt" package="SOD3716X135_HS" value="20V-500MA" x="-47.87" y="211.98" rot="R90">
+<attribute name="DATASHEET" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATA_SHEET" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DB" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DEVICE" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="IMAGE" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="IRECT" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MIN_QTY" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZE" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="STOCK" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VREV" value="" x="-47.87" y="211.98" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D4" library="quadparts_prebuilt" package="SOD3716X135_HS" value="20V-500MA" x="-47.87" y="198.01" rot="R90">
+<attribute name="DATASHEET" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATA_SHEET" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DB" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DEVICE" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="IMAGE" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="IRECT" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MIN_QTY" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZE" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="STOCK" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VREV" value="" x="-47.87" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D5" library="LEDs" package="LED_VLMX51Z1AA" value="Red" x="-14.85" y="246.27" rot="R90">
+<attribute name="CREATOR" value="Jason Shiuan" x="-14.85" y="246.27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-14.85" y="246.27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="VLMR51Z1AA-GS08CT-ND" x="-14.85" y="246.27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Vishay" x="-14.85" y="246.27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="VLMR51Z1AA-GS08" x="-14.85" y="246.27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="REVIEWER" value="" x="-14.85" y="246.27" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D6" library="LEDs" package="LED_VLMX51Z1AA" value="Yellow" x="-14.85" y="236.11" rot="R90">
+<attribute name="CREATOR" value="Jason Shiuan" x="-14.85" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-14.85" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="VLMY51Z1AA-GS08CT-ND" x="-14.85" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Vishay" x="-14.85" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="VLMY51Z1AA-GS08" x="-14.85" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="REVIEWER" value="" x="-14.85" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D9" library="LEDs" package="LED_OVS5MXBCR4" value="Blue" x="-14.85" y="225.95" rot="R90">
+<attribute name="CREATOR" value="Jason Shiuan" x="-14.85" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-14.85" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="365-1544-1-ND" x="-14.85" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="TT Electronics/Optek Technology" x="-14.85" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="OVS5MBBCR4" x="-14.85" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="REVIEWER" value="" x="-14.85" y="225.95" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="J1" library="quadparts_prebuilt" package="2X3-NS" value="AVR_SPI_PRG_6NS" x="-12.31" y="180.23" rot="R90">
+<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" x="-12.31" y="180.23" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-12.31" y="180.23" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="609-3234-ND" x="-12.31" y="180.23" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Amphenol FCI" x="-12.31" y="180.23" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="67997-206HLF" x="-12.31" y="180.23" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="0.31" x="-12.31" y="180.23" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="J2" library="quadparts_connie" package="MALE_HEADER_2X1_0.1IN" value="" x="-27.55" y="184.04" rot="R90">
+<attribute name="CREATOR" value="SWANSON" x="-27.55" y="184.04" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-27.55" y="184.04" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="3M9447-ND" x="-27.55" y="184.04" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="3M" x="-27.55" y="184.04" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="961102-6404-AR" x="-27.55" y="184.04" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="REVIEWER" value="" x="-27.55" y="184.04" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="J3" library="quadparts_prebuilt" package="HDRV10W63P254_10X1_2540X254H838_HS" value="" x="-41.52" y="185.31" rot="R90">
+<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf" x="-41.52" y="185.31" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-41.52" y="185.31" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="609-3250-ND" x="-41.52" y="185.31" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Amphenol FCI" x="-41.52" y="185.31" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="68000-110HLF" x="-41.52" y="185.31" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="0.55" x="-41.52" y="185.31" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="JP1" library="quadparts_prebuilt" package="FTDI_BASIC" value="FTDI_BASICPTH" x="-26.28" y="236.11" rot="R90">
+<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf" x="-26.28" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-26.28" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="609-3327-ND" x="-26.28" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Amphenol FCI" x="-26.28" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="68016-406HLF" x="-26.28" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="0.33" x="-26.28" y="236.11" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="JP2" library="quadparts_prebuilt" package="FTDI_BASIC" value="FTDI_BASICPTH" x="-26.28" y="219.6" rot="R90">
+<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf" x="-26.28" y="219.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-26.28" y="219.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="609-3327-ND" x="-26.28" y="219.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Amphenol FCI" x="-26.28" y="219.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="68016-406HLF" x="-26.28" y="219.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="0.33" x="-26.28" y="219.6" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="NET_BRIDGE" library="quadparts_jason" package="NET_BRIDGE" value="NET_BRIDGE" x="-59.3" y="199.28" rot="R90">
+<attribute name="CREATPR" value="Jason Shiuan" x="-59.3" y="199.28" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="Q1" library="quadparts_connie" package="N_MOSFET_SI2302CDS_T1_E3" value="2.6A" x="-42.79" y="234.84" rot="R90">
+<attribute name="CREATOR" value="Connie Du" x="-42.79" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-42.79" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="-42.79" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Vishay Siliconix" x="-42.79" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="SI2302CDS-T1-E3" x="-42.79" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="REVIEWER" value="" x="-42.79" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="Q2" library="quadparts_connie" package="N_MOSFET_SI2302CDS_T1_E3" value="2.6A" x="-42.79" y="228.49" rot="R90">
+<attribute name="CREATOR" value="Connie Du" x="-42.79" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-42.79" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="-42.79" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Vishay Siliconix" x="-42.79" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="SI2302CDS-T1-E3" x="-42.79" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="REVIEWER" value="" x="-42.79" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="Q3" library="quadparts_connie" package="N_MOSFET_SI2302CDS_T1_E3" value="2.6A" x="-42.79" y="222.14" rot="R90">
+<attribute name="CREATOR" value="Connie Du" x="-42.79" y="222.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-42.79" y="222.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="-42.79" y="222.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Vishay Siliconix" x="-42.79" y="222.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="SI2302CDS-T1-E3" x="-42.79" y="222.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="REVIEWER" value="" x="-42.79" y="222.14" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="Q4" library="quadparts_connie" package="N_MOSFET_SI2302CDS_T1_E3" value="2.6A" x="-42.79" y="215.79" rot="R90">
+<attribute name="CREATOR" value="Connie Du" x="-42.79" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-42.79" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="-42.79" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Vishay Siliconix" x="-42.79" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="SI2302CDS-T1-E3" x="-42.79" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="REVIEWER" value="" x="-42.79" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R1" library="quadparts_prebuilt" package="RESC2012X60_HS" value="10K" x="-55.49" y="209.44" rot="R90">
+<attribute name="DIST" value="Digikey" x="-55.49" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="311-10KARCT-ND" x="-55.49" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="-55.49" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805JR-0710KL" x="-55.49" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R10" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="-59.3" y="228.49" rot="R90">
+<attribute name="DIST" value="Digikey" x="-59.3" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="311-100ARCT-ND" x="-59.3" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="-59.3" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805JR-07100RL" x="-59.3" y="228.49" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R11" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="-59.3" y="222.14" rot="R90">
+<attribute name="DIST" value="Digikey" x="-59.3" y="222.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="311-100ARCT-ND" x="-59.3" y="222.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="-59.3" y="222.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805JR-07100RL" x="-59.3" y="222.14" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R15" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="-59.3" y="215.79" rot="R90">
+<attribute name="DIST" value="Digikey" x="-59.3" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="311-100ARCT-ND" x="-59.3" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="-59.3" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805JR-07100RL" x="-59.3" y="215.79" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R16" library="quadparts_prebuilt" package="RESC2012X60_HS" value="10K" x="-59.3" y="209.44" rot="R90">
+<attribute name="DIST" value="Digikey" x="-59.3" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="311-10KARCT-ND" x="-59.3" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="-59.3" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805JR-0710KL" x="-59.3" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R17" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="-59.3" y="203.09" rot="R90">
+<attribute name="DIST" value="Digikey" x="-59.3" y="203.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="311-100ARCT-ND" x="-59.3" y="203.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="-59.3" y="203.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805JR-07100RL" x="-59.3" y="203.09" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R2" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="-55.49" y="203.09" rot="R90">
+<attribute name="DIST" value="Digikey" x="-55.49" y="203.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="311-100ARCT-ND" x="-55.49" y="203.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="-55.49" y="203.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805JR-07100RL" x="-55.49" y="203.09" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R3" library="quadparts_prebuilt" package="RESC2012X60_HS" value="10K" x="-55.49" y="196.74" rot="R90">
+<attribute name="DIST" value="Digikey" x="-55.49" y="196.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="311-10KARCT-ND" x="-55.49" y="196.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="-55.49" y="196.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805JR-0710KL" x="-55.49" y="196.74" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R4" library="quadparts_prebuilt" package="RESC2012X60_HS" value="10K" x="-55.49" y="190.39" rot="R90">
+<attribute name="DIST" value="Digikey" x="-55.49" y="190.39" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="311-10KARCT-ND" x="-55.49" y="190.39" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="-55.49" y="190.39" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805JR-0710KL" x="-55.49" y="190.39" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R5" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="-55.49" y="184.04" rot="R90">
+<attribute name="DIST" value="Digikey" x="-55.49" y="184.04" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="311-100ARCT-ND" x="-55.49" y="184.04" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="-55.49" y="184.04" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805JR-07100RL" x="-55.49" y="184.04" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R6" library="quadparts_prebuilt" package="RESC2012X60_HS" value="10K" x="-55.49" y="177.69" rot="R90">
+<attribute name="DIST" value="Digikey" x="-55.49" y="177.69" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="311-10KARCT-ND" x="-55.49" y="177.69" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="-55.49" y="177.69" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805JR-0710KL" x="-55.49" y="177.69" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R7" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="-59.3" y="247.54" rot="R90">
+<attribute name="DIST" value="Digikey" x="-59.3" y="247.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="311-100ARCT-ND" x="-59.3" y="247.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="-59.3" y="247.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805JR-07100RL" x="-59.3" y="247.54" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R8" library="quadparts_prebuilt" package="RESC2012X60_HS" value="10K" x="-59.3" y="241.19" rot="R90">
+<attribute name="DIST" value="Digikey" x="-59.3" y="241.19" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="311-10KARCT-ND" x="-59.3" y="241.19" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="-59.3" y="241.19" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805JR-0710KL" x="-59.3" y="241.19" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R9" library="quadparts_prebuilt" package="RESC2012X60_HS" value="100" x="-59.3" y="234.84" rot="R90">
+<attribute name="DIST" value="Digikey" x="-59.3" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="311-100ARCT-ND" x="-59.3" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="-59.3" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805JR-07100RL" x="-59.3" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$1" library="quadparts_prebuilt" package="ANTENNA-CHIP5" value="ANTENNA2SMD5" x="-33.9" y="220.87" rot="R90">
+<attribute name="DATASHEET" value="http://www.linxtechnologies.com/resources/data-guides/ant-xxx-chp-x.pdf" x="-33.9" y="220.87" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-33.9" y="220.87" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="ANT-2.45-CHPCT-ND" x="-33.9" y="220.87" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Linx Technologies Inc." x="-33.9" y="220.87" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ANT-2.45-CHP-T" x="-33.9" y="220.87" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="3.16" x="-33.9" y="220.87" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$2" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="-25.01" y="177.69" rot="R90">
+<attribute name="DIST" value="NA" x="-25.01" y="177.69" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="NA" x="-25.01" y="177.69" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="NA" x="-25.01" y="177.69" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="NA" x="-25.01" y="177.69" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$3" library="quadparts_prebuilt" package="SOT23-DBV" value="TPS73633-DBVT" x="-27.55" y="209.44" rot="R90">
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/lp3985.pdf" x="-27.55" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-27.55" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="LP3985IM5X-3.0/NOPBCT-ND" x="-27.55" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Texas Instruments" x="-27.55" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="LP3985IM5X-3.0/NOPB" x="-27.55" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="0.59" x="-27.55" y="209.44" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$4" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="-35.17" y="247.54" rot="R90">
+<attribute name="DIST" value="NA" x="-35.17" y="247.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="NA" x="-35.17" y="247.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="NA" x="-35.17" y="247.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="NA" x="-35.17" y="247.54" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$5" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="-35.17" y="241.19" rot="R90">
+<attribute name="DIST" value="NA" x="-35.17" y="241.19" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="NA" x="-35.17" y="241.19" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="NA" x="-35.17" y="241.19" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="NA" x="-35.17" y="241.19" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$6" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="-35.17" y="234.84" rot="R90">
+<attribute name="DIST" value="NA" x="-35.17" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="NA" x="-35.17" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="NA" x="-35.17" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="NA" x="-35.17" y="234.84" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U1" library="quadparts_prebuilt" package="QFN-64" value="ATMEGA128RFA1" x="-13.58" y="203.09" rot="R90">
+<attribute name="CREATOR" value="Swanson" x="-13.58" y="203.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-8266-MCU_Wireless-ATmega128RFA1_Datasheet.pdf" x="-13.58" y="203.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-13.58" y="203.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="ATMEGA128RFA1-ZUR00DKR-ND" x="-13.58" y="203.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Atmel" x="-13.58" y="203.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ATMEGA128RFA1-ZUR00" x="-13.58" y="203.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="10.21" x="-13.58" y="203.09" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U2" library="quadparts_connie" package="IMU_LSM9DS1TR" value="IMU_LSM9DS1TR" x="-25.01" y="198.01" rot="R90">
+<attribute name="CREATOR" value="Connie Du" x="-25.01" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-25.01" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="497-14946-1-ND" x="-25.01" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="STMicroelectronics" x="-25.01" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="LSM9DS1TR" x="-25.01" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="REVIEWER" value="" x="-25.01" y="198.01" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="Y1" library="quadparts_prebuilt" package="CRYSTAL-SMD-5X3" value="16MHz" x="-25.01" y="191.66" rot="R90">
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/abm3b.pdf" x="-25.01" y="191.66" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="-25.01" y="191.66" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="535-9122-1-ND" x="-25.01" y="191.66" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Abracon LLC" x="-25.01" y="191.66" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ABM3B-16.000MHZ-B2-T" x="-25.01" y="191.66" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="0.68" x="-25.01" y="191.66" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="XTAL-08218" x="-25.01" y="191.66" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -3294,48 +3254,48 @@ design rules under a new name.</description>
 <contactref element="C22" pad="2"/>
 <contactref element="C16" pad="2"/>
 <contactref element="D6" pad="C"/>
-<wire x1="88.62" y1="18.805" x2="88.62" y2="26.425" width="0" layer="19" extent="1-1"/>
-<wire x1="84.81" y1="17.535" x2="88.62" y2="18.805" width="0" layer="19" extent="1-1"/>
-<wire x1="84.81" y1="11.185" x2="84.81" y2="17.535" width="0" layer="19" extent="1-1"/>
-<wire x1="88.62" y1="11.185" x2="84.81" y2="11.185" width="0" layer="19" extent="1-1"/>
-<wire x1="84.81" y1="4.835" x2="84.81" y2="11.185" width="0" layer="19" extent="1-1"/>
-<wire x1="88.62" y1="1.775" x2="84.81" y2="4.835" width="0" layer="19" extent="1-1"/>
-<wire x1="84.81" y1="-1.515" x2="88.62" y2="1.775" width="0" layer="19" extent="1-1"/>
-<wire x1="88.62" y1="-4.055" x2="84.81" y2="-1.515" width="0" layer="19" extent="1-1"/>
-<wire x1="88.62" y1="-11.675" x2="88.62" y2="-4.055" width="0" layer="19" extent="1-1"/>
-<wire x1="88.62" y1="-19.295" x2="88.62" y2="-11.675" width="0" layer="19" extent="1-1"/>
-<wire x1="81" y1="-19.22" x2="88.62" y2="-19.295" width="0" layer="19" extent="1-1"/>
-<wire x1="88.62" y1="-26.915" x2="88.62" y2="-19.295" width="0" layer="19" extent="1-1"/>
-<wire x1="93.7" y1="-29.455" x2="88.62" y2="-26.915" width="0" layer="19" extent="1-1"/>
-<wire x1="98.78" y1="-10.03" x2="88.62" y2="-11.675" width="0" layer="19" extent="1-1"/>
-<wire x1="99.58" y1="-5.57" x2="98.78" y2="-10.03" width="0" layer="19" extent="1-1"/>
-<wire x1="93.7" y1="-40.135" x2="93.7" y2="-29.455" width="0" layer="19" extent="1-1"/>
-<wire x1="114.05" y1="-8.76" x2="99.58" y2="-5.57" width="0" layer="19" extent="1-1"/>
-<wire x1="114.62" y1="-18.24" x2="114.05" y2="-8.76" width="0" layer="19" extent="1-1"/>
-<wire x1="115.067" y1="-18.24" x2="114.62" y2="-18.24" width="0" layer="19" extent="1-1"/>
-<wire x1="115.513" y1="-18.24" x2="115.067" y2="-18.24" width="0" layer="19" extent="1-1"/>
-<wire x1="115.96" y1="-18.24" x2="115.513" y2="-18.24" width="0" layer="19" extent="1-1"/>
-<wire x1="113.59" y1="-18.65" x2="114.62" y2="-18.24" width="0" layer="19" extent="1-1"/>
-<wire x1="113.59" y1="-19.09" x2="113.59" y2="-18.65" width="0" layer="19" extent="1-1"/>
-<wire x1="113.59" y1="-19.53" x2="113.59" y2="-19.09" width="0" layer="19" extent="1-1"/>
-<wire x1="151.139" y1="-18.86" x2="115.96" y2="-18.24" width="0" layer="19" extent="1-1"/>
-<wire x1="151.139" y1="-17.36" x2="151.139" y2="-18.86" width="0" layer="19" extent="1-1"/>
-<wire x1="151.139" y1="-15.86" x2="151.139" y2="-17.36" width="0" layer="19" extent="1-1"/>
-<wire x1="155.27" y1="-21.491" x2="151.139" y2="-18.86" width="0" layer="19" extent="1-1"/>
-<wire x1="156.77" y1="-21.491" x2="155.27" y2="-21.491" width="0" layer="19" extent="1-1"/>
-<wire x1="157.27" y1="-21.491" x2="156.77" y2="-21.491" width="0" layer="19" extent="1-1"/>
-<wire x1="160.901" y1="-20.36" x2="157.27" y2="-21.491" width="0" layer="19" extent="1-1"/>
-<wire x1="160.901" y1="-19.86" x2="160.901" y2="-20.36" width="0" layer="19" extent="1-1"/>
-<wire x1="160.901" y1="-18.86" x2="160.901" y2="-19.86" width="0" layer="19" extent="1-1"/>
-<wire x1="160.901" y1="-16.86" x2="160.901" y2="-18.86" width="0" layer="19" extent="1-1"/>
-<wire x1="153.77" y1="-11.729" x2="151.139" y2="-15.86" width="0" layer="19" extent="1-1"/>
-<wire x1="158.77" y1="-11.729" x2="153.77" y2="-11.729" width="0" layer="19" extent="1-1"/>
-<wire x1="159.77" y1="-11.729" x2="158.77" y2="-11.729" width="0" layer="19" extent="1-1"/>
-<wire x1="135.62" y1="-44.73" x2="155.27" y2="-21.491" width="0" layer="19" extent="1-1"/>
-<wire x1="114.02" y1="14.1" x2="114.05" y2="-8.76" width="0" layer="19" extent="1-1"/>
-<wire x1="125.45" y1="20.61" x2="114.02" y2="14.1" width="0" layer="19" extent="1-1"/>
-<wire x1="125.45" y1="30.77" x2="125.45" y2="20.61" width="0" layer="19" extent="1-1"/>
-<wire x1="114.02" y1="30.61" x2="125.45" y2="30.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.68" y1="237.005" x2="-51.68" y2="244.625" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="235.735" x2="-51.68" y2="237.005" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="229.385" x2="-55.49" y2="235.735" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.68" y1="229.385" x2="-55.49" y2="229.385" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="223.035" x2="-55.49" y2="229.385" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.68" y1="219.975" x2="-55.49" y2="223.035" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="216.685" x2="-51.68" y2="219.975" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.68" y1="214.145" x2="-55.49" y2="216.685" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.68" y1="206.525" x2="-51.68" y2="214.145" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.68" y1="198.905" x2="-51.68" y2="206.525" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.3" y1="198.98" x2="-51.68" y2="198.905" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.68" y1="191.285" x2="-51.68" y2="198.905" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.6" y1="188.745" x2="-51.68" y2="191.285" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.52" y1="208.17" x2="-51.68" y2="206.525" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.72" y1="212.63" x2="-41.52" y2="208.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.6" y1="178.065" x2="-46.6" y2="188.745" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.25" y1="209.44" x2="-40.72" y2="212.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.68" y1="199.96" x2="-26.25" y2="209.44" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.233" y1="199.96" x2="-25.68" y2="199.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.787" y1="199.96" x2="-25.233" y2="199.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.34" y1="199.96" x2="-24.787" y2="199.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.71" y1="199.55" x2="-25.68" y2="199.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.71" y1="199.11" x2="-26.71" y2="199.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.71" y1="198.67" x2="-26.71" y2="199.11" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.461" y1="200.84" x2="-24.34" y2="199.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.461" y1="202.34" x2="-18.461" y2="200.84" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.461" y1="203.84" x2="-18.461" y2="202.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.33" y1="198.209" x2="-18.461" y2="200.84" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.83" y1="198.209" x2="-14.33" y2="198.209" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.33" y1="198.209" x2="-12.83" y2="198.209" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.699" y1="199.34" x2="-12.33" y2="198.209" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.699" y1="199.84" x2="-8.699" y2="199.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.699" y1="200.84" x2="-8.699" y2="199.84" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.699" y1="202.84" x2="-8.699" y2="200.84" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.83" y1="207.971" x2="-18.461" y2="203.84" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.83" y1="207.971" x2="-15.83" y2="207.971" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.83" y1="207.971" x2="-10.83" y2="207.971" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.58" y1="182.77" x2="-14.33" y2="198.209" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.28" y1="232.3" x2="-26.25" y2="209.44" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.85" y1="238.81" x2="-26.28" y2="232.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.85" y1="248.97" x2="-14.85" y2="238.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.28" y1="248.81" x2="-14.85" y2="248.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="JP1" pad="TXO"/>
@@ -3352,7 +3312,7 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="JP1" pad="DTR"/>
 <contactref element="C1" pad="1"/>
-<wire x1="105.13" y1="8.125" x2="114.02" y2="17.91" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.17" y1="226.325" x2="-26.28" y2="236.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="C1" pad="2"/>
@@ -3360,7 +3320,7 @@ design rules under a new name.</description>
 <signal name="RESET">
 <contactref element="U1" pad="12"/>
 <contactref element="R1" pad="2"/>
-<wire x1="157.77" y1="-21.491" x2="84.81" y2="-7.805" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.83" y1="198.209" x2="-55.49" y2="210.395" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="JP2" pad="RXI"/>
@@ -3400,37 +3360,37 @@ design rules under a new name.</description>
 <contactref element="R6" pad="2"/>
 <contactref element="C9" pad="1"/>
 <contactref element="R15" pad="2"/>
-<wire x1="81" y1="-1.455" x2="84.81" y2="22.095" width="0" layer="19" extent="1-1"/>
-<wire x1="98.995" y1="-3.4425" x2="81" y2="-1.455" width="0" layer="19" extent="1-1"/>
-<wire x1="84.81" y1="-39.555" x2="81" y2="-1.455" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.3" y1="216.745" x2="-55.49" y2="240.295" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.305" y1="214.7575" x2="-59.3" y2="216.745" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="178.645" x2="-59.3" y2="216.745" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PB5">
 <contactref element="J3" pad="6"/>
 <contactref element="U1" pad="41"/>
 <contactref element="R7" pad="1"/>
-<wire x1="98.78" y1="-20.19" x2="81" y2="28.385" width="0" layer="19" extent="1-1"/>
-<wire x1="155.77" y1="-11.729" x2="98.78" y2="-20.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.52" y1="198.01" x2="-59.3" y2="246.585" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.83" y1="207.971" x2="-41.52" y2="198.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PE5">
 <contactref element="U1" pad="51"/>
 <contactref element="J3" pad="5"/>
 <contactref element="R2" pad="1"/>
-<wire x1="98.78" y1="-22.73" x2="84.81" y2="-16.065" width="0" layer="19" extent="1-1"/>
-<wire x1="151.139" y1="-13.86" x2="98.78" y2="-22.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.52" y1="195.47" x2="-55.49" y2="202.135" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.461" y1="205.84" x2="-41.52" y2="195.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PE3">
 <contactref element="U1" pad="49"/>
 <contactref element="J3" pad="4"/>
 <contactref element="R15" pad="1"/>
-<wire x1="98.78" y1="-25.27" x2="81" y2="-3.365" width="0" layer="19" extent="1-1"/>
-<wire x1="151.139" y1="-12.86" x2="98.78" y2="-25.27" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.52" y1="192.93" x2="-59.3" y2="214.835" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.461" y1="206.84" x2="-41.52" y2="192.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PE4">
 <contactref element="U1" pad="50"/>
 <contactref element="J3" pad="3"/>
 <contactref element="R17" pad="1"/>
-<wire x1="98.78" y1="-27.81" x2="81" y2="-16.065" width="0" layer="19" extent="1-1"/>
-<wire x1="151.139" y1="-13.36" x2="98.78" y2="-27.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.52" y1="190.39" x2="-59.3" y2="202.135" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.461" y1="206.34" x2="-41.52" y2="190.39" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BAT_GND">
 <contactref element="BATT1" pad="-"/>
@@ -3454,26 +3414,26 @@ design rules under a new name.</description>
 <contactref element="J3" pad="9"/>
 <contactref element="D9" pad="C"/>
 <contactref element="D10" pad="C"/>
-<wire x1="84.81" y1="23.885" x2="84.81" y2="30.235" width="0" layer="19" extent="1-1"/>
-<wire x1="97.51" y1="29.92" x2="84.81" y2="30.235" width="0" layer="19" extent="1-1"/>
-<wire x1="98.995" y1="17.6725" x2="97.51" y2="29.92" width="0" layer="19" extent="1-1"/>
-<wire x1="98.995" y1="11.3225" x2="98.995" y2="17.6725" width="0" layer="19" extent="1-1"/>
-<wire x1="98.995" y1="4.9725" x2="98.995" y2="11.3225" width="0" layer="19" extent="1-1"/>
-<wire x1="98.995" y1="-1.3775" x2="98.995" y2="4.9725" width="0" layer="19" extent="1-1"/>
-<wire x1="105.13" y1="-5.64" x2="98.995" y2="-1.3775" width="0" layer="19" extent="1-1"/>
-<wire x1="98.78" y1="-12.57" x2="105.13" y2="-5.64" width="0" layer="19" extent="1-1"/>
-<wire x1="105.13" y1="-17.07" x2="98.78" y2="-12.57" width="0" layer="19" extent="1-1"/>
-<wire x1="105.13" y1="-28.5" x2="105.13" y2="-17.07" width="0" layer="19" extent="1-1"/>
-<wire x1="84.81" y1="-22.415" x2="98.78" y2="-12.57" width="0" layer="19" extent="1-1"/>
-<wire x1="81" y1="-18.62" x2="84.81" y2="-22.415" width="0" layer="19" extent="1-1"/>
-<wire x1="84.81" y1="-28.765" x2="84.81" y2="-22.415" width="0" layer="19" extent="1-1"/>
-<wire x1="88.62" y1="-33.265" x2="84.81" y2="-28.765" width="0" layer="19" extent="1-1"/>
-<wire x1="88.62" y1="-39.615" x2="88.62" y2="-33.265" width="0" layer="19" extent="1-1"/>
-<wire x1="84.81" y1="-41.465" x2="88.62" y2="-39.615" width="0" layer="19" extent="1-1"/>
-<wire x1="81" y1="-9.715" x2="81" y2="-18.62" width="0" layer="19" extent="1-1"/>
-<wire x1="125.45" y1="0.29" x2="105.13" y2="-5.64" width="0" layer="19" extent="1-1"/>
-<wire x1="125.95" y1="10.55" x2="125.45" y2="0.29" width="0" layer="19" extent="1-1"/>
-<wire x1="14.605" y1="0" x2="125.95" y2="10.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="242.085" x2="-55.49" y2="248.435" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.79" y1="248.12" x2="-55.49" y2="248.435" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.305" y1="235.8725" x2="-42.79" y2="248.12" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.305" y1="229.5225" x2="-41.305" y2="235.8725" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.305" y1="223.1725" x2="-41.305" y2="229.5225" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.305" y1="216.8225" x2="-41.305" y2="223.1725" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.17" y1="212.56" x2="-41.305" y2="216.8225" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.52" y1="205.63" x2="-35.17" y2="212.56" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.17" y1="201.13" x2="-41.52" y2="205.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.17" y1="189.7" x2="-35.17" y2="201.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="195.785" x2="-41.52" y2="205.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.3" y1="199.58" x2="-55.49" y2="195.785" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="189.435" x2="-55.49" y2="195.785" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.68" y1="184.935" x2="-55.49" y2="189.435" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.68" y1="178.585" x2="-51.68" y2="184.935" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="176.735" x2="-51.68" y2="178.585" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.3" y1="208.485" x2="-59.3" y2="199.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.85" y1="218.49" x2="-35.17" y2="212.56" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.85" y1="228.65" x2="-14.85" y2="218.49" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.785" y1="225.95" x2="-14.85" y2="228.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT">
 <contactref element="U$3" pad="1"/>
@@ -3494,23 +3454,23 @@ design rules under a new name.</description>
 <contactref element="J3" pad="8"/>
 <contactref element="R11" pad="2"/>
 <contactref element="R10" pad="1"/>
-<wire x1="81" y1="9.335" x2="84.81" y2="15.745" width="0" layer="19" extent="1-1"/>
-<wire x1="81" y1="4.895" x2="81" y2="9.335" width="0" layer="19" extent="1-1"/>
-<wire x1="92.43" y1="20.055" x2="84.81" y2="15.745" width="0" layer="19" extent="1-1"/>
-<wire x1="97.51" y1="23.68" x2="92.43" y2="20.055" width="0" layer="19" extent="1-1"/>
-<wire x1="105.13" y1="21.99" x2="97.51" y2="23.68" width="0" layer="19" extent="1-1"/>
-<wire x1="105.13" y1="28.34" x2="105.13" y2="21.99" width="0" layer="19" extent="1-1"/>
-<wire x1="105.13" y1="15.64" x2="105.13" y2="21.99" width="0" layer="19" extent="1-1"/>
-<wire x1="92.43" y1="6.085" x2="81" y2="4.895" width="0" layer="19" extent="1-1"/>
-<wire x1="92.43" y1="-7.885" x2="92.43" y2="6.085" width="0" layer="19" extent="1-1"/>
-<wire x1="98.78" y1="-15.11" x2="92.43" y2="-7.885" width="0" layer="19" extent="1-1"/>
-<wire x1="105.13" y1="-11.88" x2="98.78" y2="-15.11" width="0" layer="19" extent="1-1"/>
-<wire x1="114.05" y1="-9.71" x2="105.13" y2="-11.88" width="0" layer="19" extent="1-1"/>
-<wire x1="92.43" y1="-21.855" x2="98.78" y2="-15.11" width="0" layer="19" extent="1-1"/>
-<wire x1="105.13" y1="-23.31" x2="98.78" y2="-15.11" width="0" layer="19" extent="1-1"/>
-<wire x1="105.13" y1="-34.74" x2="105.13" y2="-23.31" width="0" layer="19" extent="1-1"/>
-<wire x1="112.75" y1="-34.16" x2="105.13" y2="-34.74" width="0" layer="19" extent="1-1"/>
-<wire x1="115.29" y1="-41.51" x2="112.75" y2="-34.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.3" y1="227.535" x2="-55.49" y2="233.945" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.3" y1="223.095" x2="-59.3" y2="227.535" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.87" y1="238.255" x2="-55.49" y2="233.945" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.79" y1="241.88" x2="-47.87" y2="238.255" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.17" y1="240.19" x2="-42.79" y2="241.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.17" y1="246.54" x2="-35.17" y2="240.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.17" y1="233.84" x2="-35.17" y2="240.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.87" y1="224.285" x2="-59.3" y2="223.095" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.87" y1="210.315" x2="-47.87" y2="224.285" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.52" y1="203.09" x2="-47.87" y2="210.315" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.17" y1="206.32" x2="-41.52" y2="203.09" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.25" y1="208.49" x2="-35.17" y2="206.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.87" y1="196.345" x2="-41.52" y2="203.09" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.17" y1="194.89" x2="-41.52" y2="203.09" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.17" y1="183.46" x2="-35.17" y2="194.89" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.55" y1="184.04" x2="-35.17" y2="183.46" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.01" y1="176.69" x2="-27.55" y2="184.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V">
 <contactref element="U$3" pad="5"/>
@@ -3535,63 +3495,63 @@ design rules under a new name.</description>
 <contactref element="C23" pad="1"/>
 <contactref element="C22" pad="1"/>
 <contactref element="J3" pad="7"/>
-<wire x1="88.62" y1="17.015" x2="81" y2="23.945" width="0" layer="19" extent="1-1"/>
-<wire x1="88.62" y1="9.395" x2="88.62" y2="17.015" width="0" layer="19" extent="1-1"/>
-<wire x1="84.81" y1="9.395" x2="88.62" y2="9.395" width="0" layer="19" extent="1-1"/>
-<wire x1="84.81" y1="-9.715" x2="84.81" y2="9.395" width="0" layer="19" extent="1-1"/>
-<wire x1="98.78" y1="-17.65" x2="84.81" y2="-9.715" width="0" layer="19" extent="1-1"/>
-<wire x1="111.45" y1="-9.71" x2="98.78" y2="-17.65" width="0" layer="19" extent="1-1"/>
-<wire x1="116.99" y1="-18.65" x2="111.45" y2="-9.71" width="0" layer="19" extent="1-1"/>
-<wire x1="116.99" y1="-20.85" x2="116.99" y2="-18.65" width="0" layer="19" extent="1-1"/>
-<wire x1="116.99" y1="-21.29" x2="116.99" y2="-20.85" width="0" layer="19" extent="1-1"/>
-<wire x1="116.99" y1="-21.73" x2="116.99" y2="-21.29" width="0" layer="19" extent="1-1"/>
-<wire x1="115.96" y1="-22.14" x2="116.99" y2="-21.73" width="0" layer="19" extent="1-1"/>
-<wire x1="115.067" y1="-22.14" x2="115.96" y2="-22.14" width="0" layer="19" extent="1-1"/>
-<wire x1="113.59" y1="-21.73" x2="115.067" y2="-22.14" width="0" layer="19" extent="1-1"/>
-<wire x1="113.59" y1="-20.85" x2="113.59" y2="-21.73" width="0" layer="19" extent="1-1"/>
-<wire x1="113.59" y1="-20.41" x2="113.59" y2="-20.85" width="0" layer="19" extent="1-1"/>
-<wire x1="151.139" y1="-17.86" x2="116.99" y2="-18.65" width="0" layer="19" extent="1-1"/>
-<wire x1="151.139" y1="-15.36" x2="151.139" y2="-17.86" width="0" layer="19" extent="1-1"/>
-<wire x1="154.27" y1="-11.729" x2="151.139" y2="-15.36" width="0" layer="19" extent="1-1"/>
-<wire x1="159.27" y1="-11.729" x2="154.27" y2="-11.729" width="0" layer="19" extent="1-1"/>
-<wire x1="160.901" y1="-17.36" x2="159.27" y2="-11.729" width="0" layer="19" extent="1-1"/>
-<wire x1="88.62" y1="-28.705" x2="98.78" y2="-17.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.68" y1="235.215" x2="-59.3" y2="242.145" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.68" y1="227.595" x2="-51.68" y2="235.215" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="227.595" x2="-51.68" y2="227.595" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="208.485" x2="-55.49" y2="227.595" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.52" y1="200.55" x2="-55.49" y2="208.485" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.85" y1="208.49" x2="-41.52" y2="200.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.31" y1="199.55" x2="-28.85" y2="208.49" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.31" y1="197.35" x2="-23.31" y2="199.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.31" y1="196.91" x2="-23.31" y2="197.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.31" y1="196.47" x2="-23.31" y2="196.91" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.34" y1="196.06" x2="-23.31" y2="196.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.233" y1="196.06" x2="-24.34" y2="196.06" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.71" y1="196.47" x2="-25.233" y2="196.06" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.71" y1="197.35" x2="-26.71" y2="196.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.71" y1="197.79" x2="-26.71" y2="197.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.461" y1="201.84" x2="-23.31" y2="199.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.461" y1="204.34" x2="-18.461" y2="201.84" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.33" y1="207.971" x2="-18.461" y2="204.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.33" y1="207.971" x2="-15.33" y2="207.971" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.699" y1="202.34" x2="-10.33" y2="207.971" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.68" y1="189.495" x2="-41.52" y2="200.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="U1" pad="60"/>
 <contactref element="C12" pad="1"/>
-<wire x1="151.139" y1="-18.36" x2="84.81" y2="3.045" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.461" y1="201.34" x2="-55.49" y2="221.245" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="U1" pad="21"/>
 <contactref element="U1" pad="22"/>
 <contactref element="C13" pad="1"/>
-<wire x1="160.901" y1="-17.86" x2="84.81" y2="-3.305" width="0" layer="19" extent="1-1"/>
-<wire x1="160.901" y1="-18.36" x2="160.901" y2="-17.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.699" y1="201.84" x2="-55.49" y2="214.895" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.699" y1="201.34" x2="-8.699" y2="201.84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U1" pad="57"/>
 <contactref element="Y1" pad="3"/>
 <contactref element="C15" pad="1"/>
-<wire x1="114.14" y1="-24.69" x2="88.62" y2="-13.465" width="0" layer="19" extent="1-1"/>
-<wire x1="151.139" y1="-16.86" x2="114.14" y2="-24.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.16" y1="193.51" x2="-51.68" y2="204.735" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.461" y1="202.84" x2="-26.16" y2="193.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="Y1" pad="1"/>
 <contactref element="U1" pad="56"/>
 <contactref element="C14" pad="1"/>
-<wire x1="151.139" y1="-16.36" x2="88.62" y2="-5.845" width="0" layer="19" extent="1-1"/>
-<wire x1="116.44" y1="-28.39" x2="151.139" y2="-16.36" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.461" y1="203.34" x2="-51.68" y2="212.355" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.86" y1="189.81" x2="-18.461" y2="203.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="U1" pad="8"/>
 <contactref element="B1" pad="1"/>
-<wire x1="99.58" y1="-6.87" x2="155.77" y2="-21.491" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.72" y1="211.33" x2="-13.83" y2="198.209" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
 <contactref element="U1" pad="9"/>
 <contactref element="B1" pad="5"/>
-<wire x1="97.98" y1="-6.22" x2="156.27" y2="-21.491" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.32" y1="211.98" x2="-13.33" y2="198.209" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="C18" pad="1"/>
@@ -3600,129 +3560,129 @@ design rules under a new name.</description>
 <contactref element="B1" pad="4"/>
 <contactref element="U$1" pad="FEED"/>
 <contactref element="C19" pad="2"/>
-<wire x1="106.4" y1="-0.632" x2="97.98" y2="-5.57" width="0" layer="19" extent="1-1"/>
-<wire x1="93.7" y1="-38.345" x2="97.98" y2="-5.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.9" y1="217.568" x2="-42.32" y2="212.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.6" y1="179.855" x2="-42.32" y2="212.63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="U2" pad="C1"/>
 <contactref element="C25" pad="2"/>
-<wire x1="113.59" y1="-21.29" x2="88.62" y2="3.565" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.71" y1="196.91" x2="-51.68" y2="221.765" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="U2" pad="CAP"/>
 <contactref element="C21" pad="1"/>
-<wire x1="113.59" y1="-19.97" x2="88.62" y2="24.635" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.71" y1="198.23" x2="-51.68" y2="242.835" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA">
 <contactref element="J3" pad="2"/>
 <contactref element="U1" pad="26"/>
 <contactref element="U2" pad="SDA/SDI/SDO"/>
-<wire x1="115.513" y1="-22.14" x2="160.901" y2="-15.86" width="0" layer="19" extent="1-1"/>
-<wire x1="98.78" y1="-30.35" x2="115.513" y2="-22.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.787" y1="196.06" x2="-8.699" y2="203.84" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.52" y1="187.85" x2="-24.787" y2="196.06" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL">
 <contactref element="J3" pad="1"/>
 <contactref element="U1" pad="25"/>
 <contactref element="U2" pad="SCL/SPC"/>
 <contactref element="R8" pad="1"/>
-<wire x1="114.62" y1="-22.14" x2="81" y2="22.035" width="0" layer="19" extent="1-1"/>
-<wire x1="160.901" y1="-16.36" x2="114.62" y2="-22.14" width="0" layer="19" extent="1-1"/>
-<wire x1="98.78" y1="-32.89" x2="114.62" y2="-22.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.68" y1="196.06" x2="-59.3" y2="240.235" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.699" y1="203.34" x2="-25.68" y2="196.06" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.52" y1="185.31" x2="-25.68" y2="196.06" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="U1" pad="14"/>
 <contactref element="R5" pad="2"/>
-<wire x1="84.81" y1="-33.205" x2="158.77" y2="-21.491" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="184.995" x2="-10.83" y2="198.209" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="U1" pad="15"/>
 <contactref element="R9" pad="1"/>
-<wire x1="159.27" y1="-21.491" x2="81" y2="15.685" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.33" y1="198.209" x2="-59.3" y2="233.885" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="D9" pad="A"/>
 <contactref element="R11" pad="1"/>
-<wire x1="125.95" y1="5.15" x2="81" y2="2.985" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.85" y1="223.25" x2="-59.3" y2="221.185" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="D5" pad="A"/>
 <contactref element="R9" pad="2"/>
-<wire x1="125.45" y1="25.37" x2="81" y2="17.595" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.85" y1="243.57" x2="-59.3" y2="235.795" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="D6" pad="A"/>
 <contactref element="R5" pad="1"/>
-<wire x1="84.81" y1="-35.115" x2="125.45" y2="15.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="183.085" x2="-14.85" y2="233.41" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="D10" pad="A"/>
 <contactref element="R10" pad="2"/>
-<wire x1="125.45" y1="-5.11" x2="81" y2="11.245" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.85" y1="213.09" x2="-59.3" y2="229.445" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="J2" pad="2"/>
 <contactref element="BATT1" pad="+"/>
-<wire x1="14.605" y1="-2.54" x2="112.75" y2="-31.62" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.785" y1="223.41" x2="-27.55" y2="186.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="U$2" pad="V-"/>
 <contactref element="D1" pad="A"/>
 <contactref element="Q1" pad="3D"/>
-<wire x1="96.026" y1="16.64" x2="92.43" y2="23.385" width="0" layer="19" extent="1-1"/>
-<wire x1="115.29" y1="-38.51" x2="96.026" y2="16.64" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.274" y1="234.84" x2="-47.87" y2="241.585" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.01" y1="179.69" x2="-44.274" y2="234.84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="D3" pad="A"/>
 <contactref element="U$5" pad="V-"/>
 <contactref element="Q3" pad="3D"/>
-<wire x1="96.026" y1="3.94" x2="105.13" y2="24.99" width="0" layer="19" extent="1-1"/>
-<wire x1="92.43" y1="-4.555" x2="96.026" y2="3.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.274" y1="222.14" x2="-35.17" y2="243.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.87" y1="213.645" x2="-44.274" y2="222.14" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$29">
 <contactref element="D4" pad="A"/>
 <contactref element="U$6" pad="V-"/>
 <contactref element="Q4" pad="3D"/>
-<wire x1="96.026" y1="-2.41" x2="105.13" y2="18.64" width="0" layer="19" extent="1-1"/>
-<wire x1="92.43" y1="-18.525" x2="96.026" y2="-2.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.274" y1="215.79" x2="-35.17" y2="236.84" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.87" y1="199.675" x2="-44.274" y2="215.79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$30">
 <contactref element="D2" pad="A"/>
 <contactref element="U$4" pad="V-"/>
 <contactref element="Q2" pad="3D"/>
-<wire x1="96.026" y1="10.29" x2="105.13" y2="31.34" width="0" layer="19" extent="1-1"/>
-<wire x1="92.43" y1="9.415" x2="96.026" y2="10.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.274" y1="228.49" x2="-35.17" y2="249.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.87" y1="227.615" x2="-44.274" y2="228.49" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$31">
 <contactref element="C7" pad="1"/>
 <contactref element="R2" pad="2"/>
 <contactref element="Q3" pad="1G"/>
 <contactref element="R4" pad="2"/>
-<wire x1="98.995" y1="2.9075" x2="84.81" y2="28.445" width="0" layer="19" extent="1-1"/>
-<wire x1="84.81" y1="-14.155" x2="98.995" y2="2.9075" width="0" layer="19" extent="1-1"/>
-<wire x1="84.81" y1="-26.855" x2="84.81" y2="-14.155" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.305" y1="221.1075" x2="-55.49" y2="246.645" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="204.045" x2="-41.305" y2="221.1075" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="191.345" x2="-55.49" y2="204.045" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$32">
 <contactref element="U$3" pad="4"/>
 <contactref element="C16" pad="1"/>
-<wire x1="93.7" y1="-31.245" x2="111.45" y2="-7.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.6" y1="186.955" x2="-28.85" y2="210.39" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$33">
 <contactref element="C3" pad="1"/>
 <contactref element="R7" pad="2"/>
 <contactref element="Q1" pad="1G"/>
 <contactref element="R3" pad="2"/>
-<wire x1="98.995" y1="15.6075" x2="81" y2="30.295" width="0" layer="19" extent="1-1"/>
-<wire x1="84.81" y1="-20.505" x2="98.995" y2="15.6075" width="0" layer="19" extent="1-1"/>
-<wire x1="88.62" y1="-35.055" x2="84.81" y2="-20.505" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.305" y1="233.8075" x2="-59.3" y2="248.495" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.49" y1="197.695" x2="-41.305" y2="233.8075" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.68" y1="183.145" x2="-55.49" y2="197.695" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$34">
 <contactref element="C5" pad="1"/>
 <contactref element="R17" pad="2"/>
 <contactref element="Q2" pad="1G"/>
 <contactref element="R16" pad="2"/>
-<wire x1="81" y1="-14.155" x2="81" y2="-7.805" width="0" layer="19" extent="1-1"/>
-<wire x1="98.995" y1="9.2575" x2="81" y2="-7.805" width="0" layer="19" extent="1-1"/>
-<wire x1="88.62" y1="-41.405" x2="81" y2="-14.155" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.3" y1="204.045" x2="-59.3" y2="210.395" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.305" y1="227.4575" x2="-59.3" y2="210.395" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.68" y1="176.795" x2="-59.3" y2="204.045" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

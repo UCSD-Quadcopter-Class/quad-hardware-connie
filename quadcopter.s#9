@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3966,6 +3966,8 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="C25" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.1UF" value="0.1uF"/>
 <part name="C20" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.1UF" value="0.1uF"/>
 <part name="C21" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.01UF" value="0.01uF"/>
+<part name="C16" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.01UF" value="0.01uF"/>
+<part name="GND26" library="quadparts_prebuilt" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4102,6 +4104,8 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <instance part="C25" gate="G$1" x="38.1" y="-68.58" rot="R90"/>
 <instance part="C20" gate="G$1" x="2.54" y="-78.74"/>
 <instance part="C21" gate="G$1" x="76.2" y="-68.58" rot="R90"/>
+<instance part="C16" gate="G$1" x="-137.16" y="-15.24"/>
+<instance part="GND26" gate="1" x="-137.16" y="-25.4"/>
 </instances>
 <busses>
 </busses>
@@ -4158,7 +4162,9 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <segment>
 <pinref part="U$3" gate="G$1" pin="NC/FB"/>
 <wire x1="-142.24" y1="-10.16" x2="-139.7" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-139.7" y="-10.16" size="1.778" layer="95"/>
+<wire x1="-139.7" y1="-10.16" x2="-139.7" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="-12.7" x2="-137.16" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
@@ -4296,6 +4302,12 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
 <pinref part="C22" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+<wire x1="-137.16" y1="-22.86" x2="-137.16" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-137.16" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">

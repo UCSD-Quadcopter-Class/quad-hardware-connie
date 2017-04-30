@@ -3408,52 +3408,64 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </polygon>
 </package>
 <package name="N_MOSFET_SI2302CDS_T1_E3">
-<smd name="3D" x="0" y="1.484" dx="0.559" dy="1.724" layer="1"/>
-<smd name="1G" x="-1.0325" y="-1.485" dx="0.559" dy="1.724" layer="1"/>
-<smd name="2S" x="1.0325" y="-1.485" dx="0.559" dy="1.724" layer="1"/>
+<smd name="3D" x="0" y="1.25" dx="2.9" dy="2.25" layer="1"/>
+<smd name="1G" x="-0.95" y="-1.25" dx="1" dy="2.3" layer="1"/>
+<smd name="2S" x="0.95" y="-1.25" dx="1" dy="2.3" layer="1"/>
 <text x="1.7" y="0.8" size="0.88" layer="25" font="vector">&gt;NAME</text>
 <text x="1.7" y="-0.2" size="0.88" layer="27" font="vector">&gt;VALUE</text>
-<wire x1="-1.3" y1="2.4" x2="-1.3" y2="-2.4" width="0.127" layer="39"/>
-<wire x1="-1.3" y1="-2.4" x2="1.3" y2="-2.4" width="0.127" layer="39"/>
-<wire x1="1.3" y1="-2.4" x2="1.3" y2="2.4" width="0.127" layer="39"/>
-<wire x1="1.3" y1="2.4" x2="-1.3" y2="2.4" width="0.127" layer="39"/>
-<wire x1="-1.3" y1="0.6" x2="1.3" y2="0.6" width="0.127" layer="51"/>
-<wire x1="1.3" y1="0.6" x2="1.3" y2="-0.6" width="0.127" layer="51"/>
-<wire x1="1.3" y1="-0.6" x2="-1.3" y2="-0.6" width="0.127" layer="51"/>
-<wire x1="-1.3" y1="-0.6" x2="-1.3" y2="0.6" width="0.127" layer="51"/>
-<circle x="-0.9" y="-0.3" radius="0.1" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1.32" x2="1.5" y2="1.32" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.32" x2="1.5" y2="-1.32" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.32" x2="-1.5" y2="-1.32" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.32" x2="-1.5" y2="1.32" width="0.127" layer="51"/>
+<circle x="-0.15" y="-1" radius="0.05" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="2.5" x2="1.6" y2="2.5" width="0.127" layer="39"/>
+<wire x1="1.6" y1="2.5" x2="1.6" y2="-2.5" width="0.127" layer="39"/>
+<wire x1="1.6" y1="-2.5" x2="-1.6" y2="-2.5" width="0.127" layer="39"/>
+<wire x1="-1.6" y1="-2.5" x2="-1.6" y2="2.5" width="0.127" layer="39"/>
+<wire x1="-1.6" y1="2.5" x2="1.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="1.6" y1="2.5" x2="1.6" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-2.5" x2="-1.6" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-2.5" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
 </package>
 <package name="IMU_LSM9DS1TR">
-<smd name="DRDY_M" x="-0.22" y="-1.7" dx="0.28" dy="1.4" layer="1"/>
-<smd name="INT_M" x="0.22" y="-1.7" dx="0.28" dy="1.4" layer="1"/>
-<smd name="INT1_A/G" x="0.66" y="-1.7" dx="0.28" dy="1.4" layer="1"/>
-<smd name="INT2_A/G" x="1.1" y="-1.7" dx="0.28" dy="1.4" layer="1"/>
-<smd name="DEN_A/G" x="1.54" y="-1.7" dx="0.28" dy="1.4" layer="1"/>
-<smd name="CS_M" x="-0.66" y="-1.7" dx="0.28" dy="1.4" layer="1"/>
-<smd name="CS_A/G" x="-1.1" y="-1.7" dx="0.28" dy="1.4" layer="1" rot="R180"/>
-<smd name="SDO_M" x="-1.54" y="-1.7" dx="0.28" dy="1.4" layer="1"/>
-<smd name="VDDIO@2" x="-1.95" y="0.223" dx="0.28" dy="1.4" layer="1" rot="R90"/>
-<smd name="SDA/SDI/SDO" x="-1.95" y="-0.223" dx="0.28" dy="1.4" layer="1" rot="R90"/>
-<smd name="SDO_A/G" x="-1.95" y="-0.67" dx="0.28" dy="1.4" layer="1" rot="R90"/>
-<smd name="SCL/SPC" x="-1.95" y="0.67" dx="0.28" dy="1.4" layer="1" rot="R90"/>
-<smd name="RES@3" x="1.95" y="0.223" dx="0.28" dy="1.4" layer="1" rot="R90"/>
-<smd name="RES@2" x="1.95" y="-0.223" dx="0.28" dy="1.4" layer="1" rot="R90"/>
-<smd name="RES@1" x="1.95" y="-0.67" dx="0.28" dy="1.4" layer="1" rot="R90"/>
-<smd name="RES@4" x="1.95" y="0.67" dx="0.28" dy="1.4" layer="1" rot="R90"/>
-<smd name="VDD@1" x="-0.22" y="1.7" dx="0.28" dy="1.4" layer="1"/>
-<smd name="CAP" x="0.22" y="1.7" dx="0.28" dy="1.4" layer="1"/>
-<smd name="GND@2" x="0.66" y="1.7" dx="0.28" dy="1.4" layer="1"/>
-<smd name="GND@1" x="1.1" y="1.7" dx="0.28" dy="1.4" layer="1"/>
-<smd name="RES@5" x="1.54" y="1.7" dx="0.28" dy="1.4" layer="1"/>
-<smd name="VDD@2" x="-0.66" y="1.7" dx="0.28" dy="1.4" layer="1"/>
-<smd name="C1" x="-1.1" y="1.7" dx="0.28" dy="1.4" layer="1" rot="R180"/>
-<smd name="VDDIO@1" x="-1.54" y="1.7" dx="0.28" dy="1.4" layer="1"/>
-<wire x1="-1.8" y1="1.6" x2="-1.8" y2="-1.6" width="0.127" layer="39"/>
-<wire x1="-1.8" y1="-1.6" x2="1.8" y2="-1.6" width="0.127" layer="39"/>
-<wire x1="1.8" y1="-1.6" x2="1.8" y2="1.6" width="0.127" layer="39"/>
-<wire x1="1.8" y1="1.6" x2="-1.8" y2="1.6" width="0.127" layer="39"/>
-<circle x="-1" y="0.7" radius="0.1" width="0.127" layer="21"/>
+<smd name="DRDY_M" x="-0.22" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
+<smd name="INT_M" x="0.22" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
+<smd name="INT1_A/G" x="0.66" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
+<smd name="INT2_A/G" x="1.1" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
+<smd name="DEN_A/G" x="1.54" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
+<smd name="CS_M" x="-0.66" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
+<smd name="CS_A/G" x="-1.1" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R180"/>
+<smd name="SDO_M" x="-1.54" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
+<smd name="VDDIO@2" x="-1.95" y="0.223" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
+<smd name="SDA/SDI/SDO" x="-1.95" y="-0.223" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
+<smd name="SDO_A/G" x="-1.95" y="-0.67" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
+<smd name="SCL/SPC" x="-1.95" y="0.67" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
+<smd name="RES@3" x="1.95" y="0.223" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
+<smd name="RES@2" x="1.95" y="-0.223" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
+<smd name="RES@1" x="1.95" y="-0.67" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
+<smd name="RES@4" x="1.95" y="0.67" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R90"/>
+<smd name="VDD@1" x="-0.22" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
+<smd name="CAP" x="0.22" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
+<smd name="GND@2" x="0.66" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
+<smd name="GND@1" x="1.1" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
+<smd name="RES@5" x="1.54" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
+<smd name="VDD@2" x="-0.66" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
+<smd name="C1" x="-1.1" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R180"/>
+<smd name="VDDIO@1" x="-1.54" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
+<circle x="-0.9" y="0.7" radius="0.1" width="0.127" layer="21"/>
 <text x="-1.9" y="2.5" size="0.88" layer="25" font="vector">&gt;NAME</text>
+<wire x1="-2.8" y1="2.5" x2="-2.8" y2="-2.5" width="0.127" layer="39"/>
+<wire x1="-2.8" y1="-2.5" x2="2.8" y2="-2.5" width="0.127" layer="39"/>
+<wire x1="2.8" y1="-2.5" x2="2.8" y2="2.5" width="0.127" layer="39"/>
+<wire x1="2.8" y1="2.5" x2="-2.8" y2="2.5" width="0.127" layer="39"/>
+<wire x1="-1.7" y1="1.5" x2="-1.7" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-1.7" y1="-1.5" x2="1.7" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.7" y1="-1.5" x2="1.7" y2="1.5" width="0.127" layer="51"/>
+<wire x1="1.7" y1="1.5" x2="-1.7" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="2.5" x2="-2.8" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.8" y1="-2.5" x2="2.8" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.8" y1="-2.5" x2="2.8" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.8" y1="2.5" x2="-2.8" y2="2.5" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>

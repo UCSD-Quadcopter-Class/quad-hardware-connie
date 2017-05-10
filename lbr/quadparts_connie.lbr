@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="tFaceplateCover" color="11" fill="1" visible="no" active="yes"/>
@@ -518,39 +518,39 @@
 <smd name="C1" x="-1.1" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R180"/>
 <smd name="VDDIO@1" x="-1.54" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
 <circle x="-0.9" y="0.7" radius="0.1" width="0.127" layer="21"/>
-<text x="-1.9" y="2.5" size="0.88" layer="25" font="vector">&gt;NAME</text>
-<wire x1="-2.8" y1="2.5" x2="-2.8" y2="-2.5" width="0.127" layer="39"/>
-<wire x1="-2.8" y1="-2.5" x2="2.8" y2="-2.5" width="0.127" layer="39"/>
-<wire x1="2.8" y1="-2.5" x2="2.8" y2="2.5" width="0.127" layer="39"/>
-<wire x1="2.8" y1="2.5" x2="-2.8" y2="2.5" width="0.127" layer="39"/>
+<text x="-1.9" y="2.6778" size="0.88" layer="25" font="vector">&gt;NAME</text>
+<wire x1="-2.8254" y1="2.6016" x2="-2.8762" y2="-2.5762" width="0.127" layer="39"/>
+<wire x1="-2.8762" y1="-2.5762" x2="2.8508" y2="-2.627" width="0.127" layer="39"/>
+<wire x1="2.8508" y1="-2.627" x2="2.8508" y2="2.6016" width="0.127" layer="39"/>
+<wire x1="2.8508" y1="2.6016" x2="-2.8254" y2="2.6016" width="0.127" layer="39"/>
 <wire x1="-1.7" y1="1.5" x2="-1.7" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="-1.7" y1="-1.5" x2="1.7" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.7" y1="-1.5" x2="1.7" y2="1.5" width="0.127" layer="51"/>
 <wire x1="1.7" y1="1.5" x2="-1.7" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-2.8" y1="2.5" x2="-2.8" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.8" y1="-2.5" x2="2.8" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="2.8" y1="-2.5" x2="2.8" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.8" y1="2.5" x2="-2.8" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.8254" y1="2.6016" x2="-2.8762" y2="-2.6016" width="0.127" layer="21"/>
+<wire x1="-2.8762" y1="-2.6016" x2="2.8508" y2="-2.627" width="0.127" layer="21"/>
+<wire x1="2.8508" y1="-2.627" x2="2.8508" y2="2.6016" width="0.127" layer="21"/>
+<wire x1="2.8508" y1="2.6016" x2="-2.8254" y2="2.6016" width="0.127" layer="21"/>
 </package>
 <package name="N_MOSFET_SI2302CDS_T1_E3">
 <smd name="3D" x="0" y="1.25" dx="2.9" dy="2.25" layer="1"/>
 <smd name="1G" x="-0.95" y="-1.25" dx="1" dy="2.3" layer="1"/>
 <smd name="2S" x="0.95" y="-1.25" dx="1" dy="2.3" layer="1"/>
-<text x="1.7" y="0.8" size="0.88" layer="25" font="vector">&gt;NAME</text>
-<text x="1.7" y="-0.2" size="0.88" layer="27" font="vector">&gt;VALUE</text>
-<wire x1="-1.5" y1="1.32" x2="1.5" y2="1.32" width="0.127" layer="51"/>
-<wire x1="1.5" y1="1.32" x2="1.5" y2="-1.32" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-1.32" x2="-1.5" y2="-1.32" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-1.32" x2="-1.5" y2="1.32" width="0.127" layer="51"/>
+<text x="1.8" y="0.8" size="0.88" layer="25" font="vector">&gt;NAME</text>
+<text x="1.8" y="-0.2" size="0.88" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-1.4" y1="1.32" x2="1.4" y2="1.32" width="0.127" layer="51"/>
+<wire x1="1.4" y1="1.32" x2="1.4" y2="-1.32" width="0.127" layer="51"/>
+<wire x1="1.4" y1="-1.32" x2="-1.4" y2="-1.32" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="-1.32" x2="-1.4" y2="1.32" width="0.127" layer="51"/>
 <circle x="-0.15" y="-1" radius="0.05" width="0.2" layer="21"/>
-<wire x1="-1.6" y1="2.5" x2="1.6" y2="2.5" width="0.127" layer="39"/>
-<wire x1="1.6" y1="2.5" x2="1.6" y2="-2.5" width="0.127" layer="39"/>
-<wire x1="1.6" y1="-2.5" x2="-1.6" y2="-2.5" width="0.127" layer="39"/>
-<wire x1="-1.6" y1="-2.5" x2="-1.6" y2="2.5" width="0.127" layer="39"/>
-<wire x1="-1.6" y1="2.5" x2="1.6" y2="2.5" width="0.127" layer="21"/>
-<wire x1="1.6" y1="2.5" x2="1.6" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="1.6" y1="-2.5" x2="-1.6" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-2.5" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="2.6" x2="1.7" y2="2.6" width="0.127" layer="39"/>
+<wire x1="1.7" y1="2.6" x2="1.7" y2="-2.6" width="0.127" layer="39"/>
+<wire x1="1.7" y1="-2.6" x2="-1.7" y2="-2.6" width="0.127" layer="39"/>
+<wire x1="-1.7" y1="2.6" x2="1.7" y2="2.6" width="0.127" layer="21"/>
+<wire x1="1.7" y1="2.6" x2="1.7" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-2.6" x2="-1.7" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-2.6" x2="-1.7" y2="2.6" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="2.6" x2="-1.7" y2="-2.6" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>

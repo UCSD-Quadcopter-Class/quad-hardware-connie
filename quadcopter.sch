@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -328,14 +328,12 @@
 <wire x1="-1.27" y1="-1.905" x2="-0.635" y2="-2.54" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.2032" layer="51"/>
 <wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="-2.54" x2="-1.27" y2="-1.905" width="0.2032" layer="21"/>
 <wire x1="-1.905" y1="-2.875" x2="-3.175" y2="-2.875" width="0.2032" layer="51"/>
 <wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.2032" layer="21"/>
 <rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
 <rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
 <wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.2032" layer="21"/>
 <wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-2.54" width="0.2032" layer="21"/>
 <wire x1="-3.81" y1="-1.905" x2="-3.81" y2="1.905" width="0.2032" layer="21"/>
 <text x="-3.81" y="-4.445" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 <wire x1="-3.81" y1="1.905" x2="-3.175" y2="2.54" width="0.2032" layer="21"/>
@@ -400,9 +398,8 @@
 <wire x1="-1.67" y1="-0.94" x2="-1.67" y2="0.94" width="0.05" layer="39"/>
 <wire x1="-1.67" y1="0.94" x2="1.67" y2="0.94" width="0.05" layer="39"/>
 <circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
-<text x="0" y="0" size="0.87" layer="51" font="vector" ratio="10">&gt;NAME</text>
-<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<text x="1.778" y="-1.016" size="1.016" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="1.778" y="0" size="1.016" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 <wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
 <polygon width="0.01" layer="31">
 <vertex x="-1.415" y="0"/>
@@ -540,7 +537,7 @@
 <vertex x="-1.415" y="-0.46"/>
 </polygon>
 <polygon width="0.01" layer="29">
-<vertex x="1.415" y="0"/>
+<vertex x="1.415" y="0.46"/>
 <vertex x="1.415" y="-0.46"/>
 <vertex x="1.4122" y="-0.496"/>
 <vertex x="1.4037" y="-0.5311"/>
@@ -582,7 +579,6 @@
 <vertex x="1.3899" y="0.5644"/>
 <vertex x="1.4037" y="0.5311"/>
 <vertex x="1.4122" y="0.496"/>
-<vertex x="1.415" y="0.46"/>
 </polygon>
 <wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
 <wire x1="1" y1="-0.87" x2="-1" y2="-0.87" width="0.12" layer="21"/>
@@ -605,9 +601,8 @@
 <wire x1="-4.56" y1="2.55" x2="4.56" y2="2.55" width="0.05" layer="39"/>
 <circle x="-4.805" y="0" radius="0.1" width="0.2" layer="21"/>
 <circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
-<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<text x="5.08" y="-1.27" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="5.08" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 <wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
 <polygon width="0.01" layer="31">
 <vertex x="-4.305" y="0"/>
@@ -916,22 +911,14 @@
 </package>
 <package name="SOT23-DBV">
 <rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
-<wire x1="-0.428" y1="-0.81" x2="-0.522" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="-0.522" y1="0.81" x2="0.522" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-0.268" y1="0.81" x2="0.268" y2="0.81" width="0.1524" layer="21"/>
 <rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
-<wire x1="-1.328" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="21"/>
 <wire x1="-1.422" y1="-0.81" x2="-1.422" y2="0.81" width="0.1524" layer="21"/>
-<wire x1="-1.422" y1="0.81" x2="-1.328" y2="0.81" width="0.1524" layer="21"/>
-<wire x1="-1.422" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="51"/>
 <text x="0.095" y="-3.429" size="1.27" layer="27" font="vector" align="center">&gt;VALUE</text>
 <text x="0.095" y="2.905" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
-<wire x1="0.522" y1="-0.81" x2="0.428" y2="-0.81" width="0.1524" layer="21"/>
 <rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
-<wire x1="1.328" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="21"/>
-<wire x1="1.422" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="51"/>
-<wire x1="1.422" y1="-0.81" x2="1.328" y2="-0.81" width="0.1524" layer="21"/>
 <wire x1="1.422" y1="0.81" x2="1.422" y2="-0.81" width="0.1524" layer="21"/>
 <smd name="1" x="-0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
 <smd name="2" x="0" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
@@ -950,9 +937,8 @@
 <wire x1="-1.69" y1="-0.96" x2="-1.69" y2="0.96" width="0.05" layer="39"/>
 <wire x1="-1.69" y1="0.96" x2="1.69" y2="0.96" width="0.05" layer="39"/>
 <circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
-<text x="0" y="0" size="0.92" layer="51" font="vector" ratio="10">&gt;NAME</text>
-<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<text x="1.778" y="-0.762" size="1.016" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="1.778" y="0.254" size="1.016" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 <wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
 <polygon width="0.01" layer="31">
 <vertex x="-1.435" y="0"/>
@@ -1155,9 +1141,8 @@
 <wire x1="-2.54" y1="1.15" x2="2.54" y2="1.15" width="0.05" layer="39"/>
 <circle x="-2.79" y="0" radius="0.1" width="0.2" layer="21"/>
 <circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
-<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<text x="0" y="0" size="1.32" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="2.54" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 <wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
 <polygon width="0.01" layer="31">
 <vertex x="-1.665" y="0.4"/>
@@ -1385,13 +1370,14 @@
 </package>
 <package name="HDRV10W63P254_10X1_2540X254H838_HS">
 <description>Header, Vertical, 2.54 mm pitch; 0.635 mm lead width, 10 pins, 1 row, 10 pins per row, 25.40 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<wire x1="-0.4233" y1="1.27" x2="24.13" y2="1.27" width="0.12" layer="51"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="0.4233" width="0.12" layer="51"/>
+<wire x1="-0.6773" y1="1.27" x2="24.13" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="0.6773" width="0.12" layer="51"/>
 <wire x1="-1.27" y1="-1.27" x2="24.13" y2="-1.27" width="0.12" layer="21"/>
-<wire x1="-1.27" y1="0.4233" x2="-0.4233" y2="1.27" width="0.12" layer="51"/>
 <wire x1="-1.27" y1="0.4233" x2="-1.27" y2="-1.27" width="0.12" layer="21"/>
-<wire x1="-1.27" y1="0.4233" x2="-1.27" y2="1.27" width="0.01" layer="51"/>
-<wire x1="-1.27" y1="1.27" x2="-0.4233" y2="1.27" width="0.01" layer="51"/>
+<wire x1="-1.27" y1="0.6773" x2="-1.27" y2="0.762" width="0.01" layer="51"/>
+<wire x1="-1.27" y1="0.762" x2="-1.27" y2="1.27" width="0.01" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="-0.762" y2="1.27" width="0.01" layer="51"/>
+<wire x1="-0.762" y1="1.27" x2="-0.6773" y2="1.27" width="0.01" layer="51"/>
 <wire x1="-1.52" y1="-1.52" x2="-1.52" y2="1.52" width="0.05" layer="39"/>
 <wire x1="-1.52" y1="1.52" x2="24.38" y2="1.52" width="0.05" layer="39"/>
 <circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
@@ -2093,9 +2079,8 @@
 <vertex x="23.6675" y="-0.1424"/>
 </polygon>
 <wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
-<text x="11.43" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="11.43" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<text x="11.43" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<text x="11.43" y="1.27" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="11.43" y="-2.54" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 <wire x1="24.13" y1="-1.27" x2="-1.27" y2="-1.27" width="0.12" layer="51"/>
 <wire x1="24.13" y1="-1.27" x2="24.13" y2="1.27" width="0.12" layer="21"/>
 <wire x1="24.13" y1="1.27" x2="-0.4233" y2="1.27" width="0.12" layer="21"/>
@@ -2112,6 +2097,7 @@
 <pad name="7" x="15.24" y="0" drill="1.1" diameter="1.65" stop="no"/>
 <pad name="8" x="17.78" y="0" drill="1.1" diameter="1.65" stop="no"/>
 <pad name="9" x="20.32" y="0" drill="1.1" diameter="1.65" stop="no"/>
+<wire x1="-1.27" y1="0.762" x2="-0.762" y2="1.27" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -3411,21 +3397,21 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <smd name="3D" x="0" y="1.25" dx="2.9" dy="2.25" layer="1"/>
 <smd name="1G" x="-0.95" y="-1.25" dx="1" dy="2.3" layer="1"/>
 <smd name="2S" x="0.95" y="-1.25" dx="1" dy="2.3" layer="1"/>
-<text x="1.7" y="0.8" size="0.88" layer="25" font="vector">&gt;NAME</text>
-<text x="1.7" y="-0.2" size="0.88" layer="27" font="vector">&gt;VALUE</text>
-<wire x1="-1.5" y1="1.32" x2="1.5" y2="1.32" width="0.127" layer="51"/>
-<wire x1="1.5" y1="1.32" x2="1.5" y2="-1.32" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-1.32" x2="-1.5" y2="-1.32" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-1.32" x2="-1.5" y2="1.32" width="0.127" layer="51"/>
+<text x="1.8" y="0.8" size="0.88" layer="25" font="vector">&gt;NAME</text>
+<text x="1.8" y="-0.2" size="0.88" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-1.4" y1="1.32" x2="1.4" y2="1.32" width="0.127" layer="51"/>
+<wire x1="1.4" y1="1.32" x2="1.4" y2="-1.32" width="0.127" layer="51"/>
+<wire x1="1.4" y1="-1.32" x2="-1.4" y2="-1.32" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="-1.32" x2="-1.4" y2="1.32" width="0.127" layer="51"/>
 <circle x="-0.15" y="-1" radius="0.05" width="0.2" layer="21"/>
-<wire x1="-1.6" y1="2.5" x2="1.6" y2="2.5" width="0.127" layer="39"/>
-<wire x1="1.6" y1="2.5" x2="1.6" y2="-2.5" width="0.127" layer="39"/>
-<wire x1="1.6" y1="-2.5" x2="-1.6" y2="-2.5" width="0.127" layer="39"/>
-<wire x1="-1.6" y1="-2.5" x2="-1.6" y2="2.5" width="0.127" layer="39"/>
-<wire x1="-1.6" y1="2.5" x2="1.6" y2="2.5" width="0.127" layer="21"/>
-<wire x1="1.6" y1="2.5" x2="1.6" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="1.6" y1="-2.5" x2="-1.6" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-2.5" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="2.6" x2="1.7" y2="2.6" width="0.127" layer="39"/>
+<wire x1="1.7" y1="2.6" x2="1.7" y2="-2.6" width="0.127" layer="39"/>
+<wire x1="1.7" y1="-2.6" x2="-1.7" y2="-2.6" width="0.127" layer="39"/>
+<wire x1="-1.7" y1="2.6" x2="1.7" y2="2.6" width="0.127" layer="21"/>
+<wire x1="1.7" y1="2.6" x2="1.7" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-2.6" x2="-1.7" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-2.6" x2="-1.7" y2="2.6" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="2.6" x2="-1.7" y2="-2.6" width="0.127" layer="39"/>
 </package>
 <package name="IMU_LSM9DS1TR">
 <smd name="DRDY_M" x="-0.22" y="-1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
@@ -3453,19 +3439,19 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <smd name="C1" x="-1.1" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50" rot="R180"/>
 <smd name="VDDIO@1" x="-1.54" y="1.7" dx="0.23" dy="1.4" layer="1" roundness="50"/>
 <circle x="-0.9" y="0.7" radius="0.1" width="0.127" layer="21"/>
-<text x="-1.9" y="2.5" size="0.88" layer="25" font="vector">&gt;NAME</text>
-<wire x1="-2.8" y1="2.5" x2="-2.8" y2="-2.5" width="0.127" layer="39"/>
-<wire x1="-2.8" y1="-2.5" x2="2.8" y2="-2.5" width="0.127" layer="39"/>
-<wire x1="2.8" y1="-2.5" x2="2.8" y2="2.5" width="0.127" layer="39"/>
-<wire x1="2.8" y1="2.5" x2="-2.8" y2="2.5" width="0.127" layer="39"/>
+<text x="-1.9" y="2.6778" size="0.88" layer="25" font="vector">&gt;NAME</text>
+<wire x1="-2.8254" y1="2.6016" x2="-2.8762" y2="-2.5762" width="0.127" layer="39"/>
+<wire x1="-2.8762" y1="-2.5762" x2="2.8508" y2="-2.627" width="0.127" layer="39"/>
+<wire x1="2.8508" y1="-2.627" x2="2.8508" y2="2.6016" width="0.127" layer="39"/>
+<wire x1="2.8508" y1="2.6016" x2="-2.8254" y2="2.6016" width="0.127" layer="39"/>
 <wire x1="-1.7" y1="1.5" x2="-1.7" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="-1.7" y1="-1.5" x2="1.7" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.7" y1="-1.5" x2="1.7" y2="1.5" width="0.127" layer="51"/>
 <wire x1="1.7" y1="1.5" x2="-1.7" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-2.8" y1="2.5" x2="-2.8" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.8" y1="-2.5" x2="2.8" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="2.8" y1="-2.5" x2="2.8" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.8" y1="2.5" x2="-2.8" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.8254" y1="2.6016" x2="-2.8762" y2="-2.6016" width="0.127" layer="21"/>
+<wire x1="-2.8762" y1="-2.6016" x2="2.8508" y2="-2.627" width="0.127" layer="21"/>
+<wire x1="2.8508" y1="-2.627" x2="2.8508" y2="2.6016" width="0.127" layer="21"/>
+<wire x1="2.8508" y1="2.6016" x2="-2.8254" y2="2.6016" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -3911,25 +3897,25 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="GND6" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
 <part name="GND7" library="quadparts_prebuilt" deviceset="GND" device=""/>
 <part name="U$6" library="quadparts_prebuilt" deviceset="MOTOR_PADS" device=""/>
-<part name="C8" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="100uF"/>
+<part name="C8" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
 <part name="Q4" library="quadparts_connie" deviceset="N_MOSFET_SI2302CDS_T1_E3" device="" value="2.6A"/>
 <part name="C9" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
-<part name="D4" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123" value="20V-500MA"/>
+<part name="D4" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123"/>
 <part name="U$2" library="quadparts_prebuilt" deviceset="MOTOR_PADS" device=""/>
-<part name="C2" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="100uF"/>
+<part name="C2" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
 <part name="Q1" library="quadparts_connie" deviceset="N_MOSFET_SI2302CDS_T1_E3" device="" value="2.6A"/>
 <part name="C3" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
-<part name="D1" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123" value="20V-500MA"/>
+<part name="D1" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123"/>
 <part name="U$4" library="quadparts_prebuilt" deviceset="MOTOR_PADS" device=""/>
-<part name="C4" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="100uF"/>
+<part name="C4" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
 <part name="Q2" library="quadparts_connie" deviceset="N_MOSFET_SI2302CDS_T1_E3" device="" value="2.6A"/>
 <part name="C5" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
-<part name="D2" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123" value="20V-500MA"/>
+<part name="D2" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123"/>
 <part name="U$5" library="quadparts_prebuilt" deviceset="MOTOR_PADS" device=""/>
-<part name="C6" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="100uF"/>
+<part name="C6" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
 <part name="Q3" library="quadparts_connie" deviceset="N_MOSFET_SI2302CDS_T1_E3" device="" value="2.6A"/>
 <part name="C7" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
-<part name="D3" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123" value="20V-500MA"/>
+<part name="D3" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123"/>
 <part name="C10" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
 <part name="C11" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
 <part name="GND8" library="quadparts_prebuilt" deviceset="GND" device=""/>
@@ -3938,8 +3924,8 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="GND9" library="quadparts_prebuilt" deviceset="GND" device=""/>
 <part name="GND10" library="quadparts_prebuilt" deviceset="GND" device=""/>
 <part name="Y1" library="quadparts_prebuilt" deviceset="CRYSTAL" device="5X3" value="16MHz"/>
-<part name="C14" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="12pF"/>
-<part name="C15" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="12pF"/>
+<part name="C14" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
+<part name="C15" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
 <part name="GND11" library="quadparts_prebuilt" deviceset="GND" device=""/>
 <part name="GND12" library="quadparts_prebuilt" deviceset="GND" device=""/>
 <part name="GND13" library="quadparts_prebuilt" deviceset="GND" device=""/>
@@ -4459,7 +4445,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <junction x="-162.56" y="-91.44"/>
 </segment>
 </net>
-<net name="PB5" class="2">
+<net name="PB5" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="6"/>
 <wire x1="88.9" y1="-10.16" x2="91.44" y2="-10.16" width="0.1524" layer="91"/>
@@ -4476,7 +4462,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <label x="-177.8" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PE5" class="2">
+<net name="PE5" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PE5(OC3C/INT5)"/>
 <wire x1="-83.82" y1="-33.02" x2="-91.44" y2="-33.02" width="0.1524" layer="91"/>
@@ -4493,7 +4479,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <label x="63.5" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PE3" class="2">
+<net name="PE3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PE3(OC3A/AIN1)"/>
 <wire x1="-83.82" y1="-27.94" x2="-91.44" y2="-27.94" width="0.1524" layer="91"/>
@@ -4510,7 +4496,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <label x="-177.8" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PE4" class="2">
+<net name="PE4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PE4(OC3B/INT4)"/>
 <wire x1="-83.82" y1="-30.48" x2="-91.44" y2="-30.48" width="0.1524" layer="91"/>

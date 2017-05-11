@@ -1,0 +1,68 @@
+
+commit 948ea79a79ce557975473761157f7b0713dc3b15
+
+DRC
+===
+ok
+
+Power
+=====
+You need separate pours for VBAT and BAT_GND.  I reccomend a "C" shape for them around the edge of your board.  the VCC and GND pours should be in the middle.
+
+Pours
+=====
+
+Your GND and BAT_GND pours are crooked.
+
+Motor holders
+=============
+ok
+
+Antenna
+=======
+
+You antenna should have just it's tip inside the farady cage.  you've got half of it in and half of it out.  Check the redboard.
+
+you've got power wires running near the wires to your balun.  You don't want anything near those wires.  Add some brestrict.
+
+The wire from the C19 to the antenna is too long.
+
+You could add some vias to the right of the balun.
+
+Oscillator
+==========
+ok
+
+decoupling
+==========
+Your caps are too far away from the uctrl and IMU.
+
+Voltage regulator
+=================
+
+Did you intend the regulator to be on the back of the board?  why?  It's ok, but it's going to make soldering the board harder.  If there's no compelling reason, I'd just put it on top
+
+
+Other
+=====
+
+The leads on your motor controller diodes are too narrow.  Check the datasheet.
+
+you have no reset button.
+
+You routing is messy in some places. Eg. SCL.  It looks like you migh have moved things post-routing.  This is a bad idea, since there are no longer any guarantees that wires won't cross.  I suggest re-routing whenever you move anything.
+
+your 6-pin programming header is not connected.  Nor are your FTDI headers connected. 
+
+I'm a little worried about your LEDs.  There are two problems:
+
+1. At 3.8V they are going to draw about 500mA, but you've got them connected to the uCtrl pins.  The uCtrlr can't drive that much current.  You'll need to either connect them directly to VBAT and BAT_GND, or use a MOSFET to drive them indirectly with the microcontroller.
+
+2.  You've got four of them, which is 2A.  Our batteries are powerful, but not maybe that powerful.  You can leave them in the design, but either 1) you may need to remove them or 2) you should use the MOSFET so you can turn them off in software.
+
+They are going to be impressively bright, if they work.
+
+I'm not sure which of your CAM zip files I'm supposed to use.  Please don't name things foo2.zip, etc.  Replace the old one so there's no ambiguity.
+
+
+

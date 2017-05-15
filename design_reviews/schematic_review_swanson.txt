@@ -20,11 +20,11 @@ Your IMU symbol is not great.  Arranging the pins on the symbol to match the phy
     
 The caps on your oscillator are the wrong size.
 
-The caps on your motor controller filters are too big.  Should be 0.1uF.
+//The caps on your motor controller filters are too big.  Should be 0.1uF.
 
-The input cap on your voltage regulator should connect VBAT to BAT_GND.
+//The input cap on your voltage regulator should connect VBAT to BAT_GND.
 
-THe pins on your serial port are wrong.  TX and RX get swapped.
+//THe pins on your serial port are wrong.  TX and RX get swapped.
 
 You are missing two decoupling caps for the micro controller.
 

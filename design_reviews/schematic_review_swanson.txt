@@ -18,7 +18,7 @@ Your IMU symbol is not great.  Arranging the pins on the symbol to match the phy
 //You would put the jumper between the positive battery terminal and VBAT rather than connecting to EN on the voltage regulator.  ALso, as it's wired the jumper will pull EN low, which will turn off power.  You could, I guess, connect VBAT to EN through the jumper, but VBAT may be noisy and I'd worry about noise on EN adversely affecting the regulator.
 
     
-The caps on your oscillator are the wrong size.
+//The caps on your oscillator are the wrong size.
 
 //The caps on your motor controller filters are too big.  Should be 0.1uF.
 
@@ -26,7 +26,7 @@ The caps on your oscillator are the wrong size.
 
 //THe pins on your serial port are wrong.  TX and RX get swapped.
 
-You are missing two decoupling caps for the micro controller.
+//?You are missing two decoupling caps for the micro controller.
 
-Missing pullup on SDA
+//Missing pullup on SDA
 

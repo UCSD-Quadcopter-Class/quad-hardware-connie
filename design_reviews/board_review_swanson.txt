@@ -35,7 +35,7 @@ ok
 
 decoupling
 ==========
-Your caps are too far away from the uctrl and IMU.
+**Your caps are too far away from the uctrl and IMU.
 
 Voltage regulator
 =================
@@ -46,15 +46,15 @@ Did you intend the regulator to be on the back of the board?  why?  It's ok, but
 Other
 =====
 
-The leads on your motor controller diodes are too narrow.  Check the datasheet.
+**The leads on your motor controller diodes are too narrow.  Check the datasheet.
 
-you have no reset button.
+**you have no reset button.
 
 You routing is messy in some places. Eg. SCL.  It looks like you migh have moved things post-routing.  This is a bad idea, since there are no longer any guarantees that wires won't cross.  I suggest re-routing whenever you move anything.
 
-your 6-pin programming header is not connected.  Nor are your FTDI headers connected. 
+**your 6-pin programming header is not connected.  Nor are your FTDI headers connected. 
 
-I'm a little worried about your LEDs.  There are two problems:
+**I’m a little worried about your LEDs.  There are two problems:
 
 1. At 3.8V they are going to draw about 500mA, but you've got them connected to the uCtrl pins.  The uCtrlr can't drive that much current.  You'll need to either connect them directly to VBAT and BAT_GND, or use a MOSFET to drive them indirectly with the microcontroller.
 

@@ -1,5 +1,7 @@
 
 
+
+
 commit 948ea79a79ce557975473761157f7b0713dc3b15
 
 DRC
@@ -86,4 +88,19 @@ commit c26b41b5c64b78b19e5d193991c924dea6ec2235
 //****C13, C24, and C9 could be a lot closer to the microcontroller.
 
 // (Is this a good placement??) You should put the reset button on top.  It’ll be hard to press on the bottom.
+
+commit 5f217b625738148fe68991d57e8eec9616ab19c1
+
+
+the net from your battery to the jumper needs to be high-current.
+
+It's up to you, but the MOSFETs etc. on the bottom of the board are going to be harder to solder too. You aren't saving any space having them down there either.
+
+STyll don't see the gerbers for your inner layers.
+
+Your ftdi header is still miswired, but your serial port is fine.  The difference is this:
+
+For serial:  you have the RX pin conneted to the RX wire connected to the TX pin on the header.  This effectively flips TX and RX, which is correct.
+
+For FTDI: you have RX pin connected to TX wire to RX pin connected to the RX pin on the header.  No swapping.
 

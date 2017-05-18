@@ -69,21 +69,21 @@ I'm not sure which of your CAM zip files I'm supposed to use.  Please don't name
 commit c26b41b5c64b78b19e5d193991c924dea6ec2235
 
 
-The FTDI rx/tx pins are sill backwards.
+//The FTDI rx/tx pins are sill backwards.
 
-Your voltage regulator is not enabled.
+//Your voltage regulator is not enabled.
 
-SDA is not connected to your IMU
+//SDA is not connected to your IMU
 
-The lines to and from your big leds should be HIGH_CURRENT
+//The lines to and from your big leds should be HIGH_CURRENT
 
-the cams you sent were run with the “33”  cam. file with only does two layers.  Be sure to run the “66” file.  I ran it and the gerbers look fine.
+//the cams you sent were run with the “33”  cam. file with only does two layers.  Be sure to run the “66” file.  I ran it and the gerbers look fine.
 
-The routing for your antenna is not great.  The wire between the balun, the cap and the antenna should be shorter and inside the ground pour. Check the red board.  You can ditch the two vias between the caps and the balun.  You just need vias around the edg.
+//The routing for your antenna is not great.  The wire between the balun, the cap and the antenna should be shorter and inside the ground pour. Check the red board.  You can ditch the two vias between the caps and the balun.  You just need vias around the edg.
 
-C20 and C22 should be nearer the IMU.  R8 and R12 do not need to be near the IMU.  You could get C23’s positive terminal closer as well.
+//****C20 and C22 should be nearer the IMU.  R8 and R12 do not need to be near the IMU.  You could get C23’s positive terminal closer as well.
 
-C13, C24, and C9 could be a lot closer to the microcontroller.
+//****C13, C24, and C9 could be a lot closer to the microcontroller.
 
-You should put the reset button on top.  It’ll be hard to press on the bottom.
+// (Is this a good placement??) You should put the reset button on top.  It’ll be hard to press on the bottom.
 
